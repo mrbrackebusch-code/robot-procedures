@@ -1,6 +1,6 @@
 {
   "name": "robot-procedures",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Learn Functions by proving robot plans and battling with the same code.",
   "dependencies": {
     "device": "*"

@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": "mrbrackebusch-code/robot-procedures",
   "entry": "https://arcade.makecode.com/#tutorial:https://github.com/mrbrackebusch-code/robot-procedures/README",
   "recipes": 6,
   "main_comment_only": true,
   "runtime_sha256": "5dec5175fabd7b63fa6e3e0d7cc4a61cbf49694b6d2264875a22debe4a8cbdc2",
-  "copy_sha256": "8ccbb910620b8cd5022ac74ee713fe3b637572318af2d2a36fc1dd7a06821026",
+  "copy_sha256": "8af2186d9628604c8fcba85d5f39d69d8f3e2bdaf0e2c19913c9f9862d9b45a4",
   "media": [
     {
       "key": "R01-functions-category-menu",
@@ -759,31 +759,45 @@
     },
     {
       "key": "R06-six-functions-overview",
-      "path": "assets/v0.1.0/instructions/R05-condition-scaffold.svg",
-      "source_path": "assets/instructions/R05-condition-scaffold.svg",
-      "sha256": "edf4da501f58c8126194bcc618fb45a88fa7c627ca946812d525d1e63338dcd1",
+      "path": "assets/v0.1.1/instructions/R06-complete-inDanger-overview.svg",
+      "source_path": "assets/instructions/R06-complete-inDanger-overview.svg",
+      "sha256": "7ef8475e0a22a0dc94305b5dc0c938d0be4cdbb2491b3888f5191efe6c6ef4be",
       "part": 4
+    },
+    {
+      "key": "R06-six-functions-overview",
+      "path": "assets/v0.1.0/instructions/R05-arena_shield_points-comparison.svg",
+      "source_path": "assets/instructions/R05-arena_shield_points-comparison.svg",
+      "sha256": "49544536268391ac0f99cd6a118bb4c0f21cdefbacf3840b4781ff4601d01159",
+      "part": 5
+    },
+    {
+      "key": "R06-six-functions-overview",
+      "path": "assets/v0.1.0/instructions/R05-arena_enemy_distance-comparison.svg",
+      "source_path": "assets/instructions/R05-arena_enemy_distance-comparison.svg",
+      "sha256": "cd4e2c6df635ad714a9cdea3824d97f8c72b6d5a31f20da0b9c7c9ed74ade26a",
+      "part": 6
     },
     {
       "key": "R06-six-functions-overview",
       "path": "assets/v0.1.0/instructions/R06-readable-chooseAction.svg",
       "source_path": "assets/instructions/R06-readable-chooseAction.svg",
       "sha256": "24fe87a4effe8e8f343345fd287f8ab9495e24823d3ec60981a3f2b5011f63fb",
-      "part": 5
+      "part": 7
     },
     {
       "key": "R06-six-functions-overview",
       "path": "assets/v0.1.0/instructions/R06-readable-planRobot.svg",
       "source_path": "assets/instructions/R06-readable-planRobot.svg",
       "sha256": "ab69c14ce28b7f130eded79bff60c2671a30d432f192a908493b002ef9f0e14e",
-      "part": 6
+      "part": 8
     },
     {
       "key": "R06-six-functions-overview",
       "path": "assets/v0.1.0/instructions/R06-on-plan.svg",
       "source_path": "assets/instructions/R06-on-plan.svg",
       "sha256": "e9bcb8ad13cda70736741981c507a2910e6dc34e1d63b90b3ecb631c4b547b78",
-      "part": 7
+      "part": 9
     },
     {
       "key": "ending-current-code-replay-and-progress",
@@ -906,11 +920,6 @@
       "sha256": "f3e45f94c23e29e5048383175ef7dbf45d298ec0fa1ad564fd7a8a85a0d69d9f"
     },
     {
-      "path": "recipes/r01.md",
-      "bytes": 11204,
-      "sha256": "f845abe7e33d6f9cf91422627d305dfd01aef87e5617bc9c3e67bfc3e9716f89"
-    },
-    {
       "path": "assets/v0.1.0/demos/R02-training.gif",
       "bytes": 156327,
       "sha256": "665fbbafbeae87be8cb5c6ef62b15ba8fb06716c1b9f0b9f383640f60da531c7"
@@ -939,11 +948,6 @@
       "path": "assets/v0.1.0/demos/R02-battle.gif",
       "bytes": 274064,
       "sha256": "5148c861b75c7cee9f9f54762f63e80c1522746e1e6b0edd60d8490d5557e6e1"
-    },
-    {
-      "path": "recipes/r02.md",
-      "bytes": 7040,
-      "sha256": "f0733649bce4c8bd8108a5d8d36d5180567b398280c0befbca7c0017275a3c70"
     },
     {
       "path": "assets/v0.1.0/instructions/signature-planRobot.svg",
@@ -984,11 +988,6 @@
       "path": "assets/v0.1.0/demos/R03-battle.gif",
       "bytes": 392862,
       "sha256": "5be05a3524fd72a9e8d3a3715efeb1cb4bd47fdcf4eda30487d46f6cdcf54765"
-    },
-    {
-      "path": "recipes/r03.md",
-      "bytes": 7354,
-      "sha256": "0848a0be0f373e41f579adfd7a762df45a0e442234d467ef77909edcfa56d886"
     },
     {
       "path": "assets/v0.1.0/demos/R04-training.gif",
@@ -1051,11 +1050,6 @@
       "sha256": "f96cb6d15d63a375e02194950369b70a1a93ef493e8a41d3be6574bb9f3d6ea3"
     },
     {
-      "path": "recipes/r04.md",
-      "bytes": 9426,
-      "sha256": "1a1bffa4b95f24addf82363f57f6d9aa46c0ea88b7accb017a5c40de8ef3e7ba"
-    },
-    {
       "path": "assets/v0.1.0/instructions/signature-inDanger.svg",
       "bytes": 15265,
       "sha256": "9393c359658d6ee71da70ddaf02a16b02bd53689f80a6c26a88ebb6bdb9b09ca"
@@ -1109,11 +1103,6 @@
       "path": "assets/v0.1.0/demos/R05-battle.gif",
       "bytes": 782695,
       "sha256": "4b25477481a7b5a7722f36ed4edf6940c5af7b10bbdde113ca11bed5f019a1d8"
-    },
-    {
-      "path": "recipes/r05.md",
-      "bytes": 12048,
-      "sha256": "73aa00789088e8e20d3a0d3b9b389334010718e7c2748bcdc2355e06207893b1"
     },
     {
       "path": "assets/v0.1.0/instructions/add-boolean-parameter.png",
@@ -1206,16 +1195,6 @@
       "sha256": "0a6e45c2f8dab36ebd2a02f38ed01b25cc5f640d1855a3cfa1fa4768985cd42f"
     },
     {
-      "path": "recipes/r06.md",
-      "bytes": 14634,
-      "sha256": "3a47bd31b37dcf064dfb8e6400b88c030784c72499d615cf49151ebe2b3260ab"
-    },
-    {
-      "path": "recipes/directory.md",
-      "bytes": 904,
-      "sha256": "3c1b75b5f0c35399d93ddd1ae24186325ae5dc0306ebe23241c09be027d756d3"
-    },
-    {
       "path": "assets/v0.1.0/demos/base-first.png",
       "bytes": 7061,
       "sha256": "87ff6f80d39eed68d2e909366fac7b9fa5b51ff2be2512e358a75fde2dca7c22"
@@ -1231,9 +1210,49 @@
       "sha256": "87ff6f80d39eed68d2e909366fac7b9fa5b51ff2be2512e358a75fde2dca7c22"
     },
     {
+      "path": "recipes/r01.md",
+      "bytes": 11204,
+      "sha256": "f845abe7e33d6f9cf91422627d305dfd01aef87e5617bc9c3e67bfc3e9716f89"
+    },
+    {
+      "path": "recipes/r02.md",
+      "bytes": 7040,
+      "sha256": "f0733649bce4c8bd8108a5d8d36d5180567b398280c0befbca7c0017275a3c70"
+    },
+    {
+      "path": "recipes/r03.md",
+      "bytes": 7354,
+      "sha256": "0848a0be0f373e41f579adfd7a762df45a0e442234d467ef77909edcfa56d886"
+    },
+    {
+      "path": "recipes/r04.md",
+      "bytes": 9426,
+      "sha256": "1a1bffa4b95f24addf82363f57f6d9aa46c0ea88b7accb017a5c40de8ef3e7ba"
+    },
+    {
+      "path": "recipes/r05.md",
+      "bytes": 12048,
+      "sha256": "73aa00789088e8e20d3a0d3b9b389334010718e7c2748bcdc2355e06207893b1"
+    },
+    {
+      "path": "assets/v0.1.1/instructions/R06-complete-inDanger-overview.svg",
+      "bytes": 64264,
+      "sha256": "7ef8475e0a22a0dc94305b5dc0c938d0be4cdbb2491b3888f5191efe6c6ef4be"
+    },
+    {
+      "path": "recipes/r06.md",
+      "bytes": 15469,
+      "sha256": "322545299e22472129c1bda21e510574a9fc878fc7be65974d2e4de31708cf13"
+    },
+    {
+      "path": "recipes/directory.md",
+      "bytes": 904,
+      "sha256": "3c1b75b5f0c35399d93ddd1ae24186325ae5dc0306ebe23241c09be027d756d3"
+    },
+    {
       "path": "README.md",
-      "bytes": 79625,
-      "sha256": "57c70f25478fa0206953589d5c3692fe7eb44be485ef640df857425f391919d8"
+      "bytes": 79601,
+      "sha256": "96039e997d247c10714fab5f48233c94205e373e318ee4cfe6d0513fe8192520"
     },
     {
       "path": "source/config.ts",
@@ -1278,7 +1297,7 @@
     {
       "path": "pxt.json",
       "bytes": 540,
-      "sha256": "7a58de08ff5ccb152a0bb5a27232f5f44c51d9ee1c22629dc7cb269f4380eab4"
+      "sha256": "001f8adb097121084e4eb608758864bdd7cd8e1a460d3c6eff90196f3be840b0"
     }
   ],
   "pending_media": [],

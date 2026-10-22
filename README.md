@@ -18,8 +18,6 @@ Use **↑ / ↓** to choose, **A / Z** to confirm, and **B / X** to go back. At 
 
 ![Actual menu controls: arrows move focus, A or Z selects, and B or X goes back. — part 1 of 1](https://raw.githubusercontent.com/mrbrackebusch-code/robot-procedures/main/assets/v0.1.0/demos/base-controls.png)
 
-## @explicitHints true
-
 ## Give one robot an order
 
 A robot needs a plan. Give the action a name, then call it when the arena asks for that robot's next order.
