@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const order=['config.ts','data/trials.ts','arena.ts','bootstrap.ts'];
+const runtime=order.map(name=>'// Supplied '+name+'\n'+fs.readFileSync(path.join(root,'source',name),'utf8').replace(/\r\n/g,'\n')).join('\n');
+const file=path.join(root,'README.md'),original=fs.readFileSync(file,'utf8');
+const fence=/^```customts\n[\s\S]*?^```/gm;
+if([...original.matchAll(fence)].length!==1)throw Error('Expected exactly one supplied runtime');
+fs.writeFileSync(file,original.replace(fence,()=> '```customts\n'+runtime+'\n```'));
+console.log('Updated the one supplied runtime; learner main and Recipes retained.');

@@ -1,0 +1,1286 @@
+{
+  "schema": 1,
+  "version": "0.1.0",
+  "repository": "mrbrackebusch-code/robot-procedures",
+  "entry": "https://arcade.makecode.com/#tutorial:https://github.com/mrbrackebusch-code/robot-procedures/README",
+  "recipes": 6,
+  "main_comment_only": true,
+  "runtime_sha256": "5dec5175fabd7b63fa6e3e0d7cc4a61cbf49694b6d2264875a22debe4a8cbdc2",
+  "copy_sha256": "8ccbb910620b8cd5022ac74ee713fe3b637572318af2d2a36fc1dd7a06821026",
+  "media": [
+    {
+      "key": "R01-functions-category-menu",
+      "path": "assets/v0.1.0/instructions/functions-category.png",
+      "source_path": "assets/instructions/functions-category.png",
+      "sha256": "a5815434b3f8ff7bc86445f61c10ec1e2c05a3916d2564b4b2458e836448b722",
+      "part": 1
+    },
+    {
+      "key": "R01-functions-category-menu",
+      "path": "assets/v0.1.0/instructions/make-function-button.svg",
+      "source_path": "assets/instructions/make-function-button.svg",
+      "sha256": "93188ac20151607cc551e321c1f30cfdd5ff22e379f33deccabeb6b303e131de",
+      "part": 2
+    },
+    {
+      "key": "R01-create-attack-number-input",
+      "path": "assets/v0.1.0/instructions/function-dialog-title.png",
+      "source_path": "assets/instructions/function-dialog-title.png",
+      "sha256": "bf288ef86478efebc82902d51eb911db9bb1c39527662abd6e51ab2c4bb78882",
+      "part": 1
+    },
+    {
+      "key": "R01-create-attack-number-input",
+      "path": "assets/v0.1.0/instructions/add-number-parameter.png",
+      "source_path": "assets/instructions/add-number-parameter.png",
+      "sha256": "09205fb08fd4a0b7c28609a8f0d7d63bd1a70b4c29adc0a4580730bedf4b462a",
+      "part": 2
+    },
+    {
+      "key": "R01-create-attack-number-input",
+      "path": "assets/v0.1.0/instructions/signature-attack.svg",
+      "source_path": "assets/instructions/signature-attack.svg",
+      "sha256": "da6fea20897070691216fea6fff4ea4412988f2411ce8bdc819e91741ea5efa3",
+      "part": 3
+    },
+    {
+      "key": "R01-create-attack-number-input",
+      "path": "assets/v0.1.0/instructions/function-dialog-done.png",
+      "source_path": "assets/instructions/function-dialog-done.png",
+      "sha256": "ca687ae39ee9ce1c518987a7ec25348f0b699361e641c66dada085c5f3933297",
+      "part": 4
+    },
+    {
+      "key": "R01-attack-definition-number-input",
+      "path": "assets/v0.1.0/instructions/signature-attack.svg",
+      "source_path": "assets/instructions/signature-attack.svg",
+      "sha256": "da6fea20897070691216fea6fff4ea4412988f2411ce8bdc819e91741ea5efa3",
+      "part": 1
+    },
+    {
+      "key": "R01-attack-definition-number-input",
+      "path": "assets/v0.1.0/instructions/parameter-robot.svg",
+      "source_path": "assets/instructions/parameter-robot.svg",
+      "sha256": "49a7b40e884c560a2584c6a3f9135a1da7d7db5998100274ad020e482762e1b4",
+      "part": 2
+    },
+    {
+      "key": "R01-order-menu",
+      "path": "assets/v0.1.0/instructions/menu-arenaLab-arena_issue_order-1.svg",
+      "source_path": "assets/instructions/menu-arenaLab-arena_issue_order-1.svg",
+      "sha256": "faeb2e5a8c381a810b94c99297ed680ca5795668397f9cdb1ef0f64bd48088aa",
+      "part": 1
+    },
+    {
+      "key": "R01-order-menu",
+      "path": "assets/v0.1.0/instructions/order-choices.png",
+      "source_path": "assets/instructions/order-choices.png",
+      "sha256": "b601bfe1cf2ca430ffbc71a05f26fea8598ecefd7595020b2ce176dca5ec6068",
+      "part": 2
+    },
+    {
+      "key": "R01-attack-assembled",
+      "path": "assets/v0.1.0/instructions/R01-attack-annotated.svg",
+      "source_path": "assets/instructions/R01-attack-annotated.svg",
+      "sha256": "bd6c70a92876f04268229635f7f38bc77d394e351a6b36b9dad819e52e322290",
+      "part": 1
+    },
+    {
+      "key": "R01-definition-only-no-order",
+      "path": "assets/v0.1.0/demos/R01-definition-only.gif",
+      "source_path": "assets/demos/R01-definition-only.gif",
+      "sha256": "e116bdf4b5fd78bd2babbb191661942d0f7b08d6ccb7c3c04c63a557b847d1f2",
+      "part": 1
+    },
+    {
+      "key": "R01-event-and-generated-call-menu",
+      "path": "assets/v0.1.0/instructions/menu-arenaLab-arena_on_plan-0.svg",
+      "source_path": "assets/instructions/menu-arenaLab-arena_on_plan-0.svg",
+      "sha256": "dec89129c66935ba8604710b37fb0e449dbf78cf1eae9dec47fabcdf715acaf1",
+      "part": 1
+    },
+    {
+      "key": "R01-event-and-generated-call-menu",
+      "path": "assets/v0.1.0/instructions/menu-functions-function_call-attack-7.svg",
+      "source_path": "assets/instructions/menu-functions-function_call-attack-7.svg",
+      "sha256": "d9b0b6ce72f8d29dba7a18266e787dc16dc8692aaa1d31a3c87572f84e2456c9",
+      "part": 2
+    },
+    {
+      "key": "R01-event-argument-transfer",
+      "path": "assets/v0.1.0/instructions/R01-on-plan-annotated.svg",
+      "source_path": "assets/instructions/R01-on-plan-annotated.svg",
+      "sha256": "5d4f0f2dbbbaefba8d154a3cb0ae1ef1ae2af33dd580dbf85f8c505bf1ddbd76",
+      "part": 1
+    },
+    {
+      "key": "R01-complete-call-path",
+      "path": "assets/v0.1.0/instructions/R01-attack.svg",
+      "source_path": "assets/instructions/R01-attack.svg",
+      "sha256": "469798e053e1253f6703479645a5211132069c518105a037eb76d49c52b8eeb3",
+      "part": 1
+    },
+    {
+      "key": "R01-complete-call-path",
+      "path": "assets/v0.1.0/instructions/R01-on-plan.svg",
+      "source_path": "assets/instructions/R01-on-plan.svg",
+      "sha256": "aacde087704baf2d52c9bf227399f7e93467394c1c0fc5c0c790a233d3952167",
+      "part": 2
+    },
+    {
+      "key": "R01-training-engage",
+      "path": "assets/v0.1.0/demos/R01-training.gif",
+      "source_path": "assets/demos/R01-training.gif",
+      "sha256": "709fdd40c3b6821439861ae57a2da4e13d30f142f3bf10eedde53c638f93f895",
+      "part": 1
+    },
+    {
+      "key": "R01-missing-call-versus-engage",
+      "path": "assets/v0.1.0/demos/R01-definition-only.gif",
+      "source_path": "assets/demos/R01-definition-only.gif",
+      "sha256": "e116bdf4b5fd78bd2babbb191661942d0f7b08d6ccb7c3c04c63a557b847d1f2",
+      "part": 1
+    },
+    {
+      "key": "R01-missing-call-versus-engage",
+      "path": "assets/v0.1.0/demos/R01-training.gif",
+      "source_path": "assets/demos/R01-training.gif",
+      "sha256": "709fdd40c3b6821439861ae57a2da4e13d30f142f3bf10eedde53c638f93f895",
+      "part": 2
+    },
+    {
+      "key": "R01-proof-current-orders",
+      "path": "assets/v0.1.0/demos/R01-training.gif",
+      "source_path": "assets/demos/R01-training.gif",
+      "sha256": "709fdd40c3b6821439861ae57a2da4e13d30f142f3bf10eedde53c638f93f895",
+      "part": 1
+    },
+    {
+      "key": "R01-battle-current-program",
+      "path": "assets/v0.1.0/demos/R01-battle.gif",
+      "source_path": "assets/demos/R01-battle.gif",
+      "sha256": "f3e45f94c23e29e5048383175ef7dbf45d298ec0fa1ad564fd7a8a85a0d69d9f",
+      "part": 1
+    },
+    {
+      "key": "R02-protect-order-menu",
+      "path": "assets/v0.1.0/instructions/menu-arenaLab-arena_issue_order-1.svg",
+      "source_path": "assets/instructions/menu-arenaLab-arena_issue_order-1.svg",
+      "sha256": "faeb2e5a8c381a810b94c99297ed680ca5795668397f9cdb1ef0f64bd48088aa",
+      "part": 1
+    },
+    {
+      "key": "R02-protect-order-menu",
+      "path": "assets/v0.1.0/instructions/order-choices.png",
+      "source_path": "assets/instructions/order-choices.png",
+      "sha256": "b601bfe1cf2ca430ffbc71a05f26fea8598ecefd7595020b2ce176dca5ec6068",
+      "part": 2
+    },
+    {
+      "key": "R02-training-protect-consequence",
+      "path": "assets/v0.1.0/demos/R02-training.gif",
+      "source_path": "assets/demos/R02-training.gif",
+      "sha256": "665fbbafbeae87be8cb5c6ef62b15ba8fb06716c1b9f0b9f383640f60da531c7",
+      "part": 1
+    },
+    {
+      "key": "R02-role-and-if-menu",
+      "path": "assets/v0.1.0/instructions/menu-arenaLab-arena_is_guard-4.svg",
+      "source_path": "assets/instructions/menu-arenaLab-arena_is_guard-4.svg",
+      "sha256": "d96cfeb00b66552e077b7075e4d048fd0fd4bb8dc11985cead51c418646bd14f",
+      "part": 1
+    },
+    {
+      "key": "R02-role-and-if-menu",
+      "path": "assets/v0.1.0/instructions/menu-logic-controls_if-0.svg",
+      "source_path": "assets/instructions/menu-logic-controls_if-0.svg",
+      "sha256": "2e230a9bb4e0ce38b19f5e267ab72ecdc6f02ab742fa837aed797931bb73a0d3",
+      "part": 2
+    },
+    {
+      "key": "R02-event-selection-assembled",
+      "path": "assets/v0.1.0/instructions/R02-on-plan.svg",
+      "source_path": "assets/instructions/R02-on-plan.svg",
+      "sha256": "3a63a99981cb33c0114c5f1fb7c87c8eb545640bc9759f5672f77bf5e358413a",
+      "part": 1
+    },
+    {
+      "key": "R02-mixed-team-orders",
+      "path": "assets/v0.1.0/demos/R02-training.gif",
+      "source_path": "assets/demos/R02-training.gif",
+      "sha256": "665fbbafbeae87be8cb5c6ef62b15ba8fb06716c1b9f0b9f383640f60da531c7",
+      "part": 1
+    },
+    {
+      "key": "R02-two-nonguards-and-changed-ids",
+      "path": "assets/v0.1.0/demos/R02-training.gif",
+      "source_path": "assets/demos/R02-training.gif",
+      "sha256": "665fbbafbeae87be8cb5c6ef62b15ba8fb06716c1b9f0b9f383640f60da531c7",
+      "part": 1
+    },
+    {
+      "key": "R02-proof-current-orders",
+      "path": "assets/v0.1.0/demos/R02-training.gif",
+      "source_path": "assets/demos/R02-training.gif",
+      "sha256": "665fbbafbeae87be8cb5c6ef62b15ba8fb06716c1b9f0b9f383640f60da531c7",
+      "part": 1
+    },
+    {
+      "key": "R02-team-bay2-Guard-selection",
+      "path": "assets/v0.1.0/demos/team-guard.gif",
+      "source_path": "assets/demos/team-guard.gif",
+      "sha256": "ca0c470b6825268b4d6a80feaf9f08dec4bd79ae45d127243f248b988ebc1b0e",
+      "part": 1
+    },
+    {
+      "key": "R02-battle-mixed-team",
+      "path": "assets/v0.1.0/demos/R02-battle.gif",
+      "source_path": "assets/demos/R02-battle.gif",
+      "sha256": "5148c861b75c7cee9f9f54762f63e80c1522746e1e6b0edd60d8490d5557e6e1",
+      "part": 1
+    },
+    {
+      "key": "R03-create-planRobot-number-input",
+      "path": "assets/v0.1.0/instructions/function-dialog-title.png",
+      "source_path": "assets/instructions/function-dialog-title.png",
+      "sha256": "bf288ef86478efebc82902d51eb911db9bb1c39527662abd6e51ab2c4bb78882",
+      "part": 1
+    },
+    {
+      "key": "R03-create-planRobot-number-input",
+      "path": "assets/v0.1.0/instructions/add-number-parameter.png",
+      "source_path": "assets/instructions/add-number-parameter.png",
+      "sha256": "09205fb08fd4a0b7c28609a8f0d7d63bd1a70b4c29adc0a4580730bedf4b462a",
+      "part": 2
+    },
+    {
+      "key": "R03-create-planRobot-number-input",
+      "path": "assets/v0.1.0/instructions/signature-planRobot.svg",
+      "source_path": "assets/instructions/signature-planRobot.svg",
+      "sha256": "fc49b09873de27aa0d5388b5700e0436f62ffc2f272beb15c4517d2bcba08790",
+      "part": 3
+    },
+    {
+      "key": "R03-create-planRobot-number-input",
+      "path": "assets/v0.1.0/instructions/function-dialog-done.png",
+      "source_path": "assets/instructions/function-dialog-done.png",
+      "sha256": "ca687ae39ee9ce1c518987a7ec25348f0b699361e641c66dada085c5f3933297",
+      "part": 4
+    },
+    {
+      "key": "R03-before-event-selection",
+      "path": "assets/v0.1.0/instructions/R02-on-plan.svg",
+      "source_path": "assets/instructions/R02-on-plan.svg",
+      "sha256": "3a63a99981cb33c0114c5f1fb7c87c8eb545640bc9759f5672f77bf5e358413a",
+      "part": 1
+    },
+    {
+      "key": "R03-after-planRobot-selection",
+      "path": "assets/v0.1.0/instructions/R03-planRobot.svg",
+      "source_path": "assets/instructions/R03-planRobot.svg",
+      "sha256": "5046bfa0ff33c521522c74a5fe917e1ef1ff4498aa3bec60c0ef663a37513edd",
+      "part": 1
+    },
+    {
+      "key": "R03-planRobot-generated-call-menu",
+      "path": "assets/v0.1.0/instructions/menu-functions-function_call-planRobot-5.svg",
+      "source_path": "assets/instructions/menu-functions-function_call-planRobot-5.svg",
+      "sha256": "bc3094d3ee00427e56641c55e12c8658d8886d9b7b40acd5303b1c5a690286e6",
+      "part": 1
+    },
+    {
+      "key": "R03-event-planRobot-assembled",
+      "path": "assets/v0.1.0/instructions/R03-on-plan.svg",
+      "source_path": "assets/instructions/R03-on-plan.svg",
+      "sha256": "1efea57d70350ffc44204b4246199c43b68a1f139ac6fdbb95da99672b30d3a8",
+      "part": 1
+    },
+    {
+      "key": "R03-same-inputs-same-orders",
+      "path": "assets/v0.1.0/demos/R02-training.gif",
+      "source_path": "assets/demos/R02-training.gif",
+      "sha256": "665fbbafbeae87be8cb5c6ef62b15ba8fb06716c1b9f0b9f383640f60da531c7",
+      "part": 1
+    },
+    {
+      "key": "R03-same-inputs-same-orders",
+      "path": "assets/v0.1.0/demos/R03-same-scene.gif",
+      "source_path": "assets/demos/R03-same-scene.gif",
+      "sha256": "3e086cb69717241ece870706b924a55ecbc1c6f753f6c3d0653979d80b41b4e4",
+      "part": 2
+    },
+    {
+      "key": "R03-missing-parent-call-versus-restored",
+      "path": "assets/v0.1.0/demos/R03-missing-parent.gif",
+      "source_path": "assets/demos/R03-missing-parent.gif",
+      "sha256": "7f1ce0ed1f989f79466fdabbbf5f61b10def7ffc16eafffb22763c116f6ca53c",
+      "part": 1
+    },
+    {
+      "key": "R03-missing-parent-call-versus-restored",
+      "path": "assets/v0.1.0/demos/R03-training.gif",
+      "source_path": "assets/demos/R03-training.gif",
+      "sha256": "226b4458b7b2e07f7118049dd144b9b5dbd2d04e9869e6a3e901cd03ebcc3e4a",
+      "part": 2
+    },
+    {
+      "key": "R03-proof-same-behavior",
+      "path": "assets/v0.1.0/demos/R03-training.gif",
+      "source_path": "assets/demos/R03-training.gif",
+      "sha256": "226b4458b7b2e07f7118049dd144b9b5dbd2d04e9869e6a3e901cd03ebcc3e4a",
+      "part": 1
+    },
+    {
+      "key": "R03-battle-reorganized-program",
+      "path": "assets/v0.1.0/demos/R03-battle.gif",
+      "source_path": "assets/demos/R03-battle.gif",
+      "sha256": "5be05a3524fd72a9e8d3a3715efeb1cb4bd47fdcf4eda30487d46f6cdcf54765",
+      "part": 1
+    },
+    {
+      "key": "R04-withdraw-order-menu",
+      "path": "assets/v0.1.0/instructions/menu-arenaLab-arena_issue_order-1.svg",
+      "source_path": "assets/instructions/menu-arenaLab-arena_issue_order-1.svg",
+      "sha256": "faeb2e5a8c381a810b94c99297ed680ca5795668397f9cdb1ef0f64bd48088aa",
+      "part": 1
+    },
+    {
+      "key": "R04-withdraw-order-menu",
+      "path": "assets/v0.1.0/instructions/order-choices.png",
+      "source_path": "assets/instructions/order-choices.png",
+      "sha256": "b601bfe1cf2ca430ffbc71a05f26fea8598ecefd7595020b2ce176dca5ec6068",
+      "part": 2
+    },
+    {
+      "key": "R04-training-withdraw-consequence",
+      "path": "assets/v0.1.0/demos/R04-training.gif",
+      "source_path": "assets/demos/R04-training.gif",
+      "sha256": "3a537b1fb0f3f7766619a2fec3d0454b1e0e7d002e1424150927797d6acc14f6",
+      "part": 1
+    },
+    {
+      "key": "R04-sensors-comparisons-and-menu",
+      "path": "assets/v0.1.0/instructions/menu-arenaLab-arena_shield_points-2.svg",
+      "source_path": "assets/instructions/menu-arenaLab-arena_shield_points-2.svg",
+      "sha256": "460dbb3fde7c03b27fbea2e449b1c2040f71bb7fc8390f383b87d937bc893a28",
+      "part": 1
+    },
+    {
+      "key": "R04-sensors-comparisons-and-menu",
+      "path": "assets/v0.1.0/instructions/menu-arenaLab-arena_enemy_distance-3.svg",
+      "source_path": "assets/instructions/menu-arenaLab-arena_enemy_distance-3.svg",
+      "sha256": "30ea567580f7e1ea33fd566347e50b1c4d9a49a7ea7e22a86391776f746a2f00",
+      "part": 2
+    },
+    {
+      "key": "R04-sensors-comparisons-and-menu",
+      "path": "assets/v0.1.0/instructions/menu-logic-logic_compare-3.svg",
+      "source_path": "assets/instructions/menu-logic-logic_compare-3.svg",
+      "sha256": "0658a00939fa24bda56ecd0c1f9a6aed8ca750bb1df06addc7d3ccb79ac35013",
+      "part": 3
+    },
+    {
+      "key": "R04-sensors-comparisons-and-menu",
+      "path": "assets/v0.1.0/instructions/menu-logic-logic_operation-5.svg",
+      "source_path": "assets/instructions/menu-logic-logic_operation-5.svg",
+      "sha256": "627f2ee6b04e6070ec4c43b0405e4cfd780ec303ece3a6ca6a9d78188bb20589",
+      "part": 4
+    },
+    {
+      "key": "R04-danger-condition-assembled",
+      "path": "assets/v0.1.0/instructions/R04-arena_shield_points-comparison.svg",
+      "source_path": "assets/instructions/R04-arena_shield_points-comparison.svg",
+      "sha256": "4b7931a91d2aa1b2771c3d6934da514205ef0f8656f3e436056f32bff6667ae7",
+      "part": 1
+    },
+    {
+      "key": "R04-danger-condition-assembled",
+      "path": "assets/v0.1.0/instructions/R04-arena_enemy_distance-comparison.svg",
+      "source_path": "assets/instructions/R04-arena_enemy_distance-comparison.svg",
+      "sha256": "c01d8832f8277553a1e8fd4ccd3646e4462a647ded0f5b0a82e3922605823085",
+      "part": 2
+    },
+    {
+      "key": "R04-danger-condition-assembled",
+      "path": "assets/v0.1.0/instructions/R04-condition-scaffold.svg",
+      "source_path": "assets/instructions/R04-condition-scaffold.svg",
+      "sha256": "42019918efea1e3609f9bc706e4f5c53fe2784c42a2102a9a6d92727f4a943c4",
+      "part": 3
+    },
+    {
+      "key": "R04-native-branch-controls",
+      "path": "assets/v0.1.0/instructions/if-before-plus.svg",
+      "source_path": "assets/instructions/if-before-plus.svg",
+      "sha256": "17b62b24c5d85a0771b1f60761b6f0ec54dd3ad8472c475218ce87bd52be9228",
+      "part": 1
+    },
+    {
+      "key": "R04-native-branch-controls",
+      "path": "assets/v0.1.0/instructions/if-after-1-plus.svg",
+      "source_path": "assets/instructions/if-after-1-plus.svg",
+      "sha256": "e3de39abc9ec006ec6fb296879fcd4d1bdce7f5854512f12faf0e7a69e9504b6",
+      "part": 2
+    },
+    {
+      "key": "R04-native-branch-controls",
+      "path": "assets/v0.1.0/instructions/if-after-2-plus.svg",
+      "source_path": "assets/instructions/if-after-2-plus.svg",
+      "sha256": "c6f964b59f3eda7eecba45523290b3a87b5b3c9cd6bb3820f7d64c79b0923db5",
+      "part": 3
+    },
+    {
+      "key": "R04-planRobot-priority-assembled",
+      "path": "assets/v0.1.0/instructions/R04-condition-scaffold.svg",
+      "source_path": "assets/instructions/R04-condition-scaffold.svg",
+      "sha256": "42019918efea1e3609f9bc706e4f5c53fe2784c42a2102a9a6d92727f4a943c4",
+      "part": 1
+    },
+    {
+      "key": "R04-low-near-guard-withdraws",
+      "path": "assets/v0.1.0/demos/R04-training.gif",
+      "source_path": "assets/demos/R04-training.gif",
+      "sha256": "3a537b1fb0f3f7766619a2fec3d0454b1e0e7d002e1424150927797d6acc14f6",
+      "part": 1
+    },
+    {
+      "key": "R04-controlled-cases-and-boundaries",
+      "path": "assets/v0.1.0/demos/R04-training.gif",
+      "source_path": "assets/demos/R04-training.gif",
+      "sha256": "3a537b1fb0f3f7766619a2fec3d0454b1e0e7d002e1424150927797d6acc14f6",
+      "part": 1
+    },
+    {
+      "key": "R04-proof-current-orders",
+      "path": "assets/v0.1.0/demos/R04-training.gif",
+      "source_path": "assets/demos/R04-training.gif",
+      "sha256": "3a537b1fb0f3f7766619a2fec3d0454b1e0e7d002e1424150927797d6acc14f6",
+      "part": 1
+    },
+    {
+      "key": "R04-battle-live-danger-choice",
+      "path": "assets/v0.1.0/demos/R04-battle.gif",
+      "source_path": "assets/demos/R04-battle.gif",
+      "sha256": "f96cb6d15d63a375e02194950369b70a1a93ef493e8a41d3be6574bb9f3d6ea3",
+      "part": 1
+    },
+    {
+      "key": "R05-create-inDanger-two-number-inputs",
+      "path": "assets/v0.1.0/instructions/function-dialog-title.png",
+      "source_path": "assets/instructions/function-dialog-title.png",
+      "sha256": "bf288ef86478efebc82902d51eb911db9bb1c39527662abd6e51ab2c4bb78882",
+      "part": 1
+    },
+    {
+      "key": "R05-create-inDanger-two-number-inputs",
+      "path": "assets/v0.1.0/instructions/add-number-parameter.png",
+      "source_path": "assets/instructions/add-number-parameter.png",
+      "sha256": "09205fb08fd4a0b7c28609a8f0d7d63bd1a70b4c29adc0a4580730bedf4b462a",
+      "part": 2
+    },
+    {
+      "key": "R05-create-inDanger-two-number-inputs",
+      "path": "assets/v0.1.0/instructions/signature-inDanger.svg",
+      "source_path": "assets/instructions/signature-inDanger.svg",
+      "sha256": "9393c359658d6ee71da70ddaf02a16b02bd53689f80a6c26a88ebb6bdb9b09ca",
+      "part": 3
+    },
+    {
+      "key": "R05-create-inDanger-two-number-inputs",
+      "path": "assets/v0.1.0/instructions/function-dialog-done.png",
+      "source_path": "assets/instructions/function-dialog-done.png",
+      "sha256": "ca687ae39ee9ce1c518987a7ec25348f0b699361e641c66dada085c5f3933297",
+      "part": 4
+    },
+    {
+      "key": "R05-native-boolean-return-creation",
+      "path": "assets/v0.1.0/instructions/menu-functions-function_return-0.svg",
+      "source_path": "assets/instructions/menu-functions-function_return-0.svg",
+      "sha256": "8dae25d92d41527514abd04cf1a3efe685beb9c4d625fe219130b7e7dcb3d236",
+      "part": 1
+    },
+    {
+      "key": "R05-native-boolean-return-creation",
+      "path": "assets/v0.1.0/instructions/R05-condition-scaffold-annotated.svg",
+      "source_path": "assets/instructions/R05-condition-scaffold-annotated.svg",
+      "sha256": "da45fc552106b99c48761412171b24db4b5c2fe34ad627889bcb4f42f04b751c",
+      "part": 2
+    },
+    {
+      "key": "R05-inDanger-returning-signature",
+      "path": "assets/v0.1.0/instructions/signature-inDanger.svg",
+      "source_path": "assets/instructions/signature-inDanger.svg",
+      "sha256": "9393c359658d6ee71da70ddaf02a16b02bd53689f80a6c26a88ebb6bdb9b09ca",
+      "part": 1
+    },
+    {
+      "key": "R05-return-and-reporter-menu",
+      "path": "assets/v0.1.0/instructions/menu-functions-function_return-0.svg",
+      "source_path": "assets/instructions/menu-functions-function_return-0.svg",
+      "sha256": "8dae25d92d41527514abd04cf1a3efe685beb9c4d625fe219130b7e7dcb3d236",
+      "part": 1
+    },
+    {
+      "key": "R05-return-and-reporter-menu",
+      "path": "assets/v0.1.0/instructions/menu-arenaLab-arena_shield_points-2.svg",
+      "source_path": "assets/instructions/menu-arenaLab-arena_shield_points-2.svg",
+      "sha256": "460dbb3fde7c03b27fbea2e449b1c2040f71bb7fc8390f383b87d937bc893a28",
+      "part": 2
+    },
+    {
+      "key": "R05-return-and-reporter-menu",
+      "path": "assets/v0.1.0/instructions/menu-arenaLab-arena_enemy_distance-3.svg",
+      "source_path": "assets/instructions/menu-arenaLab-arena_enemy_distance-3.svg",
+      "sha256": "30ea567580f7e1ea33fd566347e50b1c4d9a49a7ea7e22a86391776f746a2f00",
+      "part": 3
+    },
+    {
+      "key": "R05-return-and-reporter-menu",
+      "path": "assets/v0.1.0/instructions/menu-logic-logic_compare-3.svg",
+      "source_path": "assets/instructions/menu-logic-logic_compare-3.svg",
+      "sha256": "0658a00939fa24bda56ecd0c1f9a6aed8ca750bb1df06addc7d3ccb79ac35013",
+      "part": 4
+    },
+    {
+      "key": "R05-return-and-reporter-menu",
+      "path": "assets/v0.1.0/instructions/menu-logic-logic_operation-5.svg",
+      "source_path": "assets/instructions/menu-logic-logic_operation-5.svg",
+      "sha256": "627f2ee6b04e6070ec4c43b0405e4cfd780ec303ece3a6ca6a9d78188bb20589",
+      "part": 5
+    },
+    {
+      "key": "R05-return-and-reporter-menu",
+      "path": "assets/v0.1.0/instructions/parameter-shieldLimit.svg",
+      "source_path": "assets/instructions/parameter-shieldLimit.svg",
+      "sha256": "69ea5897b1f1268c9a9cb5c0d3a33158ade827b1a130ec1e28e93838036583f6",
+      "part": 6
+    },
+    {
+      "key": "R05-return-comparison-assembled",
+      "path": "assets/v0.1.0/instructions/R05-arena_shield_points-comparison.svg",
+      "source_path": "assets/instructions/R05-arena_shield_points-comparison.svg",
+      "sha256": "49544536268391ac0f99cd6a118bb4c0f21cdefbacf3840b4781ff4601d01159",
+      "part": 1
+    },
+    {
+      "key": "R05-return-comparison-assembled",
+      "path": "assets/v0.1.0/instructions/R05-arena_enemy_distance-comparison.svg",
+      "source_path": "assets/instructions/R05-arena_enemy_distance-comparison.svg",
+      "sha256": "cd4e2c6df635ad714a9cdea3824d97f8c72b6d5a31f20da0b9c7c9ed74ade26a",
+      "part": 2
+    },
+    {
+      "key": "R05-return-comparison-assembled",
+      "path": "assets/v0.1.0/instructions/R05-condition-scaffold-annotated.svg",
+      "source_path": "assets/instructions/R05-condition-scaffold-annotated.svg",
+      "sha256": "da45fc552106b99c48761412171b24db4b5c2fe34ad627889bcb4f42f04b751c",
+      "part": 3
+    },
+    {
+      "key": "R05-generated-return-call-menu",
+      "path": "assets/v0.1.0/instructions/menu-functions-function_call_output-inDanger-3.svg",
+      "source_path": "assets/instructions/menu-functions-function_call_output-inDanger-3.svg",
+      "sha256": "4937ea13ad0d09b2e758f45c9603b44e674bac6ef14bc925a99f63c2b46c14db",
+      "part": 1
+    },
+    {
+      "key": "R05-caller-answer-socket-assembled",
+      "path": "assets/v0.1.0/instructions/R05-readable-planRobot.svg",
+      "source_path": "assets/instructions/R05-readable-planRobot.svg",
+      "sha256": "c246ca0f359f52800c41ff994cfb39bd038053dc70cc6333e5d54501c03ce9ab",
+      "part": 1
+    },
+    {
+      "key": "R05-current-orders-unchanged",
+      "path": "assets/v0.1.0/demos/R04-training.gif",
+      "source_path": "assets/demos/R04-training.gif",
+      "sha256": "3a537b1fb0f3f7766619a2fec3d0454b1e0e7d002e1424150927797d6acc14f6",
+      "part": 1
+    },
+    {
+      "key": "R05-current-orders-unchanged",
+      "path": "assets/v0.1.0/demos/R05-same-scene.gif",
+      "source_path": "assets/demos/R05-same-scene.gif",
+      "sha256": "656572e7631ccad7b7a1b275eeecc582b39f1568539506a00b525f2d9a92d492",
+      "part": 2
+    },
+    {
+      "key": "R05-controlled-return-outcomes-and-boundary",
+      "path": "assets/v0.1.0/demos/R05-training.gif",
+      "source_path": "assets/demos/R05-training.gif",
+      "sha256": "5cf45932c913bbf6bb8e42eef27230fc7f8850a745e69b6dfa4b92260b7af446",
+      "part": 1
+    },
+    {
+      "key": "R05-proof-current-orders",
+      "path": "assets/v0.1.0/demos/R05-training.gif",
+      "source_path": "assets/demos/R05-training.gif",
+      "sha256": "5cf45932c913bbf6bb8e42eef27230fc7f8850a745e69b6dfa4b92260b7af446",
+      "part": 1
+    },
+    {
+      "key": "R05-battle-returned-answer-used",
+      "path": "assets/v0.1.0/demos/R05-battle.gif",
+      "source_path": "assets/demos/R05-battle.gif",
+      "sha256": "4b25477481a7b5a7722f36ed4edf6940c5af7b10bbdde113ca11bed5f019a1d8",
+      "part": 1
+    },
+    {
+      "key": "R06-create-three-typed-inputs",
+      "path": "assets/v0.1.0/instructions/function-dialog-title.png",
+      "source_path": "assets/instructions/function-dialog-title.png",
+      "sha256": "bf288ef86478efebc82902d51eb911db9bb1c39527662abd6e51ab2c4bb78882",
+      "part": 1
+    },
+    {
+      "key": "R06-create-three-typed-inputs",
+      "path": "assets/v0.1.0/instructions/add-number-parameter.png",
+      "source_path": "assets/instructions/add-number-parameter.png",
+      "sha256": "09205fb08fd4a0b7c28609a8f0d7d63bd1a70b4c29adc0a4580730bedf4b462a",
+      "part": 2
+    },
+    {
+      "key": "R06-create-three-typed-inputs",
+      "path": "assets/v0.1.0/instructions/add-boolean-parameter.png",
+      "source_path": "assets/instructions/add-boolean-parameter.png",
+      "sha256": "0b3b7cf01ebe23f3c26dadfa8c4c8209283486fba3bf3ecce51645389420370b",
+      "part": 3
+    },
+    {
+      "key": "R06-create-three-typed-inputs",
+      "path": "assets/v0.1.0/instructions/signature-chooseAction.svg",
+      "source_path": "assets/instructions/signature-chooseAction.svg",
+      "sha256": "5a2e7dc9a55259495955201691d105e0498280035d920bd1d196779d9bba5871",
+      "part": 4
+    },
+    {
+      "key": "R06-create-three-typed-inputs",
+      "path": "assets/v0.1.0/instructions/function-dialog-done.png",
+      "source_path": "assets/instructions/function-dialog-done.png",
+      "sha256": "ca687ae39ee9ce1c518987a7ec25348f0b699361e641c66dada085c5f3933297",
+      "part": 5
+    },
+    {
+      "key": "R06-chooseAction-assembled",
+      "path": "assets/v0.1.0/instructions/signature-chooseAction-annotated.svg",
+      "source_path": "assets/instructions/signature-chooseAction-annotated.svg",
+      "sha256": "967079928ad333217a470c2a17ee4657bbb28639081b4ccdc6495f3bf04a4863",
+      "part": 1
+    },
+    {
+      "key": "R06-chooseAction-assembled",
+      "path": "assets/v0.1.0/instructions/R06-readable-chooseAction.svg",
+      "source_path": "assets/instructions/R06-readable-chooseAction.svg",
+      "sha256": "24fe87a4effe8e8f343345fd287f8ab9495e24823d3ec60981a3f2b5011f63fb",
+      "part": 2
+    },
+    {
+      "key": "R06-generated-three-input-call-menu",
+      "path": "assets/v0.1.0/instructions/menu-functions-function_call-chooseAction-1.svg",
+      "source_path": "assets/instructions/menu-functions-function_call-chooseAction-1.svg",
+      "sha256": "8673ef452e87b3cb1f4028cd76698bedb2ea6cdc9f8e7defa93f3c929e7bfe9a",
+      "part": 1
+    },
+    {
+      "key": "R06-planRobot-two-call-contexts",
+      "path": "assets/v0.1.0/instructions/R06-readable-planRobot.svg",
+      "source_path": "assets/instructions/R06-readable-planRobot.svg",
+      "sha256": "ab69c14ce28b7f130eded79bff60c2671a30d432f192a908493b002ef9f0e14e",
+      "part": 1
+    },
+    {
+      "key": "R06-equal-readings-different-limits",
+      "path": "assets/v0.1.0/demos/R06-training.gif",
+      "source_path": "assets/demos/R06-training.gif",
+      "sha256": "957f08d5cde73df066fd6c8f555590d22799a565f49bad3976cf69f26064dc6a",
+      "part": 1
+    },
+    {
+      "key": "R06-practice-limit-current-code-18-versus-12",
+      "path": "assets/v0.1.0/demos/R06-limit18.gif",
+      "source_path": "assets/demos/R06-limit18.gif",
+      "sha256": "476fc28ab05ca97aba3a6143da58e7c515bddc18b06b641ece789c81345e4ac2",
+      "part": 1
+    },
+    {
+      "key": "R06-practice-limit-current-code-18-versus-12",
+      "path": "assets/v0.1.0/demos/R06-limit12.gif",
+      "source_path": "assets/demos/R06-limit12.gif",
+      "sha256": "bac9e9fa268d9bc0dcf0a14d19949973481c9b8a2256aa66a94f01f9500694c5",
+      "part": 2
+    },
+    {
+      "key": "R06-practice-duty-current-code-true-versus-false",
+      "path": "assets/v0.1.0/demos/R06-duty-true.gif",
+      "source_path": "assets/demos/R06-duty-true.gif",
+      "sha256": "146ce0c36feca469c699db9821ba97eca74fa979c4db5abf81aff46364448216",
+      "part": 1
+    },
+    {
+      "key": "R06-practice-duty-current-code-true-versus-false",
+      "path": "assets/v0.1.0/demos/R06-duty-false.gif",
+      "source_path": "assets/demos/R06-duty-false.gif",
+      "sha256": "50ce20e19d27ca38d96ce377319f499e56f284a6e8dcdafecbf7a576e084a739",
+      "part": 2
+    },
+    {
+      "key": "R06-proof-current-policy-boundaries-and-ids",
+      "path": "assets/v0.1.0/demos/R06-training.gif",
+      "source_path": "assets/demos/R06-training.gif",
+      "sha256": "957f08d5cde73df066fd6c8f555590d22799a565f49bad3976cf69f26064dc6a",
+      "part": 1
+    },
+    {
+      "key": "R06-final-battle-current-program",
+      "path": "assets/v0.1.0/demos/R06-battle.gif",
+      "source_path": "assets/demos/R06-battle.gif",
+      "sha256": "2a9325d0ba91eb71e6e42230991558f864f173960fcef24b4ad598cea3f3dfd7",
+      "part": 1
+    },
+    {
+      "key": "R06-six-functions-overview",
+      "path": "assets/v0.1.0/instructions/R06-attack.svg",
+      "source_path": "assets/instructions/R06-attack.svg",
+      "sha256": "2b77d1cd1bcf424e3bfa32aa1bda8b70887c6b434f4de2dd0f2ac610d1b25ded",
+      "part": 1
+    },
+    {
+      "key": "R06-six-functions-overview",
+      "path": "assets/v0.1.0/instructions/R06-protect.svg",
+      "source_path": "assets/instructions/R06-protect.svg",
+      "sha256": "570209c16541c519edaee2b19755473227ee621eaab9e6152342866ca814aeb8",
+      "part": 2
+    },
+    {
+      "key": "R06-six-functions-overview",
+      "path": "assets/v0.1.0/instructions/R06-retreat.svg",
+      "source_path": "assets/instructions/R06-retreat.svg",
+      "sha256": "d61c04510d5e5b924369b4690617be3d6399143a1374a87f7a4618390bc80255",
+      "part": 3
+    },
+    {
+      "key": "R06-six-functions-overview",
+      "path": "assets/v0.1.0/instructions/R05-condition-scaffold.svg",
+      "source_path": "assets/instructions/R05-condition-scaffold.svg",
+      "sha256": "edf4da501f58c8126194bcc618fb45a88fa7c627ca946812d525d1e63338dcd1",
+      "part": 4
+    },
+    {
+      "key": "R06-six-functions-overview",
+      "path": "assets/v0.1.0/instructions/R06-readable-chooseAction.svg",
+      "source_path": "assets/instructions/R06-readable-chooseAction.svg",
+      "sha256": "24fe87a4effe8e8f343345fd287f8ab9495e24823d3ec60981a3f2b5011f63fb",
+      "part": 5
+    },
+    {
+      "key": "R06-six-functions-overview",
+      "path": "assets/v0.1.0/instructions/R06-readable-planRobot.svg",
+      "source_path": "assets/instructions/R06-readable-planRobot.svg",
+      "sha256": "ab69c14ce28b7f130eded79bff60c2671a30d432f192a908493b002ef9f0e14e",
+      "part": 6
+    },
+    {
+      "key": "R06-six-functions-overview",
+      "path": "assets/v0.1.0/instructions/R06-on-plan.svg",
+      "source_path": "assets/instructions/R06-on-plan.svg",
+      "sha256": "e9bcb8ad13cda70736741981c507a2910e6dc34e1d63b90b3ecb631c4b547b78",
+      "part": 7
+    },
+    {
+      "key": "ending-current-code-replay-and-progress",
+      "path": "assets/v0.1.0/demos/ending-replay.gif",
+      "source_path": "assets/demos/ending-replay.gif",
+      "sha256": "0a6e45c2f8dab36ebd2a02f38ed01b25cc5f640d1855a3cfa1fa4768985cd42f",
+      "part": 1
+    },
+    {
+      "key": "opening-current-world-and-menus",
+      "path": "assets/v0.1.0/demos/base-first.png",
+      "source_path": "assets/demos/base-first.png",
+      "sha256": "87ff6f80d39eed68d2e909366fac7b9fa5b51ff2be2512e358a75fde2dca7c22",
+      "part": 1
+    },
+    {
+      "key": "opening-current-world-and-menus",
+      "path": "assets/v0.1.0/demos/first-arena.png",
+      "source_path": "assets/demos/first-arena.png",
+      "sha256": "9323c20aa1b67fb401189eeb2cd72a2a4e2dcc88710df5fe7faf5a3917d7a79b",
+      "part": 2
+    },
+    {
+      "key": "controls-native-menu-and-back-cues",
+      "path": "assets/v0.1.0/demos/base-controls.png",
+      "source_path": "assets/demos/base-controls.png",
+      "sha256": "87ff6f80d39eed68d2e909366fac7b9fa5b51ff2be2512e358a75fde2dca7c22",
+      "part": 1
+    }
+  ],
+  "files": [
+    {
+      "path": "assets/v0.1.0/instructions/functions-category.png",
+      "bytes": 2148,
+      "sha256": "a5815434b3f8ff7bc86445f61c10ec1e2c05a3916d2564b4b2458e836448b722"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/make-function-button.svg",
+      "bytes": 2512,
+      "sha256": "93188ac20151607cc551e321c1f30cfdd5ff22e379f33deccabeb6b303e131de"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/function-dialog-title.png",
+      "bytes": 1614,
+      "sha256": "bf288ef86478efebc82902d51eb911db9bb1c39527662abd6e51ab2c4bb78882"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/add-number-parameter.png",
+      "bytes": 1172,
+      "sha256": "09205fb08fd4a0b7c28609a8f0d7d63bd1a70b4c29adc0a4580730bedf4b462a"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/signature-attack.svg",
+      "bytes": 11831,
+      "sha256": "da6fea20897070691216fea6fff4ea4412988f2411ce8bdc819e91741ea5efa3"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/function-dialog-done.png",
+      "bytes": 1281,
+      "sha256": "ca687ae39ee9ce1c518987a7ec25348f0b699361e641c66dada085c5f3933297"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/parameter-robot.svg",
+      "bytes": 3037,
+      "sha256": "49a7b40e884c560a2584c6a3f9135a1da7d7db5998100274ad020e482762e1b4"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/menu-arenaLab-arena_issue_order-1.svg",
+      "bytes": 13297,
+      "sha256": "faeb2e5a8c381a810b94c99297ed680ca5795668397f9cdb1ef0f64bd48088aa"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/order-choices.png",
+      "bytes": 2436,
+      "sha256": "b601bfe1cf2ca430ffbc71a05f26fea8598ecefd7595020b2ce176dca5ec6068"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/R01-attack-annotated.svg",
+      "bytes": 34149,
+      "sha256": "bd6c70a92876f04268229635f7f38bc77d394e351a6b36b9dad819e52e322290"
+    },
+    {
+      "path": "assets/v0.1.0/demos/R01-definition-only.gif",
+      "bytes": 54345,
+      "sha256": "e116bdf4b5fd78bd2babbb191661942d0f7b08d6ccb7c3c04c63a557b847d1f2"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/menu-arenaLab-arena_on_plan-0.svg",
+      "bytes": 7866,
+      "sha256": "dec89129c66935ba8604710b37fb0e449dbf78cf1eae9dec47fabcdf715acaf1"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/menu-functions-function_call-attack-7.svg",
+      "bytes": 9591,
+      "sha256": "d9b0b6ce72f8d29dba7a18266e787dc16dc8692aaa1d31a3c87572f84e2456c9"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/R01-on-plan-annotated.svg",
+      "bytes": 24178,
+      "sha256": "5d4f0f2dbbbaefba8d154a3cb0ae1ef1ae2af33dd580dbf85f8c505bf1ddbd76"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/R01-attack.svg",
+      "bytes": 24910,
+      "sha256": "469798e053e1253f6703479645a5211132069c518105a037eb76d49c52b8eeb3"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/R01-on-plan.svg",
+      "bytes": 17406,
+      "sha256": "aacde087704baf2d52c9bf227399f7e93467394c1c0fc5c0c790a233d3952167"
+    },
+    {
+      "path": "assets/v0.1.0/demos/R01-training.gif",
+      "bytes": 54881,
+      "sha256": "709fdd40c3b6821439861ae57a2da4e13d30f142f3bf10eedde53c638f93f895"
+    },
+    {
+      "path": "assets/v0.1.0/demos/R01-battle.gif",
+      "bytes": 189397,
+      "sha256": "f3e45f94c23e29e5048383175ef7dbf45d298ec0fa1ad564fd7a8a85a0d69d9f"
+    },
+    {
+      "path": "recipes/r01.md",
+      "bytes": 11204,
+      "sha256": "f845abe7e33d6f9cf91422627d305dfd01aef87e5617bc9c3e67bfc3e9716f89"
+    },
+    {
+      "path": "assets/v0.1.0/demos/R02-training.gif",
+      "bytes": 156327,
+      "sha256": "665fbbafbeae87be8cb5c6ef62b15ba8fb06716c1b9f0b9f383640f60da531c7"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/menu-arenaLab-arena_is_guard-4.svg",
+      "bytes": 7726,
+      "sha256": "d96cfeb00b66552e077b7075e4d048fd0fd4bb8dc11985cead51c418646bd14f"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/menu-logic-controls_if-0.svg",
+      "bytes": 17454,
+      "sha256": "2e230a9bb4e0ce38b19f5e267ab72ecdc6f02ab742fa837aed797931bb73a0d3"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/R02-on-plan.svg",
+      "bytes": 53690,
+      "sha256": "3a63a99981cb33c0114c5f1fb7c87c8eb545640bc9759f5672f77bf5e358413a"
+    },
+    {
+      "path": "assets/v0.1.0/demos/team-guard.gif",
+      "bytes": 33324,
+      "sha256": "ca0c470b6825268b4d6a80feaf9f08dec4bd79ae45d127243f248b988ebc1b0e"
+    },
+    {
+      "path": "assets/v0.1.0/demos/R02-battle.gif",
+      "bytes": 274064,
+      "sha256": "5148c861b75c7cee9f9f54762f63e80c1522746e1e6b0edd60d8490d5557e6e1"
+    },
+    {
+      "path": "recipes/r02.md",
+      "bytes": 7040,
+      "sha256": "f0733649bce4c8bd8108a5d8d36d5180567b398280c0befbca7c0017275a3c70"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/signature-planRobot.svg",
+      "bytes": 11841,
+      "sha256": "fc49b09873de27aa0d5388b5700e0436f62ffc2f272beb15c4517d2bcba08790"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/R03-planRobot.svg",
+      "bytes": 57432,
+      "sha256": "5046bfa0ff33c521522c74a5fe917e1ef1ff4498aa3bec60c0ef663a37513edd"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/menu-functions-function_call-planRobot-5.svg",
+      "bytes": 9601,
+      "sha256": "bc3094d3ee00427e56641c55e12c8658d8886d9b7b40acd5303b1c5a690286e6"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/R03-on-plan.svg",
+      "bytes": 17412,
+      "sha256": "1efea57d70350ffc44204b4246199c43b68a1f139ac6fdbb95da99672b30d3a8"
+    },
+    {
+      "path": "assets/v0.1.0/demos/R03-same-scene.gif",
+      "bytes": 155655,
+      "sha256": "3e086cb69717241ece870706b924a55ecbc1c6f753f6c3d0653979d80b41b4e4"
+    },
+    {
+      "path": "assets/v0.1.0/demos/R03-missing-parent.gif",
+      "bytes": 79849,
+      "sha256": "7f1ce0ed1f989f79466fdabbbf5f61b10def7ffc16eafffb22763c116f6ca53c"
+    },
+    {
+      "path": "assets/v0.1.0/demos/R03-training.gif",
+      "bytes": 83568,
+      "sha256": "226b4458b7b2e07f7118049dd144b9b5dbd2d04e9869e6a3e901cd03ebcc3e4a"
+    },
+    {
+      "path": "assets/v0.1.0/demos/R03-battle.gif",
+      "bytes": 392862,
+      "sha256": "5be05a3524fd72a9e8d3a3715efeb1cb4bd47fdcf4eda30487d46f6cdcf54765"
+    },
+    {
+      "path": "recipes/r03.md",
+      "bytes": 7354,
+      "sha256": "0848a0be0f373e41f579adfd7a762df45a0e442234d467ef77909edcfa56d886"
+    },
+    {
+      "path": "assets/v0.1.0/demos/R04-training.gif",
+      "bytes": 153569,
+      "sha256": "3a537b1fb0f3f7766619a2fec3d0454b1e0e7d002e1424150927797d6acc14f6"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/menu-arenaLab-arena_shield_points-2.svg",
+      "bytes": 6647,
+      "sha256": "460dbb3fde7c03b27fbea2e449b1c2040f71bb7fc8390f383b87d937bc893a28"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/menu-arenaLab-arena_enemy_distance-3.svg",
+      "bytes": 6670,
+      "sha256": "30ea567580f7e1ea33fd566347e50b1c4d9a49a7ea7e22a86391776f746a2f00"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/menu-logic-logic_compare-3.svg",
+      "bytes": 12512,
+      "sha256": "0658a00939fa24bda56ecd0c1f9a6aed8ca750bb1df06addc7d3ccb79ac35013"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/menu-logic-logic_operation-5.svg",
+      "bytes": 8513,
+      "sha256": "627f2ee6b04e6070ec4c43b0405e4cfd780ec303ece3a6ca6a9d78188bb20589"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/R04-arena_shield_points-comparison.svg",
+      "bytes": 16722,
+      "sha256": "4b7931a91d2aa1b2771c3d6934da514205ef0f8656f3e436056f32bff6667ae7"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/R04-arena_enemy_distance-comparison.svg",
+      "bytes": 16723,
+      "sha256": "c01d8832f8277553a1e8fd4ccd3646e4462a647ded0f5b0a82e3922605823085"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/R04-condition-scaffold.svg",
+      "bytes": 91570,
+      "sha256": "42019918efea1e3609f9bc706e4f5c53fe2784c42a2102a9a6d92727f4a943c4"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/if-before-plus.svg",
+      "bytes": 13935,
+      "sha256": "17b62b24c5d85a0771b1f60761b6f0ec54dd3ad8472c475218ce87bd52be9228"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/if-after-1-plus.svg",
+      "bytes": 22222,
+      "sha256": "e3de39abc9ec006ec6fb296879fcd4d1bdce7f5854512f12faf0e7a69e9504b6"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/if-after-2-plus.svg",
+      "bytes": 35647,
+      "sha256": "c6f964b59f3eda7eecba45523290b3a87b5b3c9cd6bb3820f7d64c79b0923db5"
+    },
+    {
+      "path": "assets/v0.1.0/demos/R04-battle.gif",
+      "bytes": 732895,
+      "sha256": "f96cb6d15d63a375e02194950369b70a1a93ef493e8a41d3be6574bb9f3d6ea3"
+    },
+    {
+      "path": "recipes/r04.md",
+      "bytes": 9426,
+      "sha256": "1a1bffa4b95f24addf82363f57f6d9aa46c0ea88b7accb017a5c40de8ef3e7ba"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/signature-inDanger.svg",
+      "bytes": 15265,
+      "sha256": "9393c359658d6ee71da70ddaf02a16b02bd53689f80a6c26a88ebb6bdb9b09ca"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/menu-functions-function_return-0.svg",
+      "bytes": 11914,
+      "sha256": "8dae25d92d41527514abd04cf1a3efe685beb9c4d625fe219130b7e7dcb3d236"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/R05-condition-scaffold-annotated.svg",
+      "bytes": 54842,
+      "sha256": "da45fc552106b99c48761412171b24db4b5c2fe34ad627889bcb4f42f04b751c"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/parameter-shieldLimit.svg",
+      "bytes": 3051,
+      "sha256": "69ea5897b1f1268c9a9cb5c0d3a33158ade827b1a130ec1e28e93838036583f6"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/R05-arena_shield_points-comparison.svg",
+      "bytes": 16768,
+      "sha256": "49544536268391ac0f99cd6a118bb4c0f21cdefbacf3840b4781ff4601d01159"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/R05-arena_enemy_distance-comparison.svg",
+      "bytes": 16723,
+      "sha256": "cd4e2c6df635ad714a9cdea3824d97f8c72b6d5a31f20da0b9c7c9ed74ade26a"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/menu-functions-function_call_output-inDanger-3.svg",
+      "bytes": 11177,
+      "sha256": "4937ea13ad0d09b2e758f45c9603b44e674bac6ef14bc925a99f63c2b46c14db"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/R05-readable-planRobot.svg",
+      "bytes": 86317,
+      "sha256": "c246ca0f359f52800c41ff994cfb39bd038053dc70cc6333e5d54501c03ce9ab"
+    },
+    {
+      "path": "assets/v0.1.0/demos/R05-same-scene.gif",
+      "bytes": 150664,
+      "sha256": "656572e7631ccad7b7a1b275eeecc582b39f1568539506a00b525f2d9a92d492"
+    },
+    {
+      "path": "assets/v0.1.0/demos/R05-training.gif",
+      "bytes": 130084,
+      "sha256": "5cf45932c913bbf6bb8e42eef27230fc7f8850a745e69b6dfa4b92260b7af446"
+    },
+    {
+      "path": "assets/v0.1.0/demos/R05-battle.gif",
+      "bytes": 782695,
+      "sha256": "4b25477481a7b5a7722f36ed4edf6940c5af7b10bbdde113ca11bed5f019a1d8"
+    },
+    {
+      "path": "recipes/r05.md",
+      "bytes": 12048,
+      "sha256": "73aa00789088e8e20d3a0d3b9b389334010718e7c2748bcdc2355e06207893b1"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/add-boolean-parameter.png",
+      "bytes": 1678,
+      "sha256": "0b3b7cf01ebe23f3c26dadfa8c4c8209283486fba3bf3ecce51645389420370b"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/signature-chooseAction.svg",
+      "bytes": 18596,
+      "sha256": "5a2e7dc9a55259495955201691d105e0498280035d920bd1d196779d9bba5871"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/signature-chooseAction-annotated.svg",
+      "bytes": 25744,
+      "sha256": "967079928ad333217a470c2a17ee4657bbb28639081b4ccdc6495f3bf04a4863"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/R06-readable-chooseAction.svg",
+      "bytes": 88115,
+      "sha256": "24fe87a4effe8e8f343345fd287f8ab9495e24823d3ec60981a3f2b5011f63fb"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/menu-functions-function_call-chooseAction-1.svg",
+      "bytes": 18179,
+      "sha256": "8673ef452e87b3cb1f4028cd76698bedb2ea6cdc9f8e7defa93f3c929e7bfe9a"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/R06-readable-planRobot.svg",
+      "bytes": 74437,
+      "sha256": "ab69c14ce28b7f130eded79bff60c2671a30d432f192a908493b002ef9f0e14e"
+    },
+    {
+      "path": "assets/v0.1.0/demos/R06-training.gif",
+      "bytes": 251251,
+      "sha256": "957f08d5cde73df066fd6c8f555590d22799a565f49bad3976cf69f26064dc6a"
+    },
+    {
+      "path": "assets/v0.1.0/demos/R06-limit18.gif",
+      "bytes": 33391,
+      "sha256": "476fc28ab05ca97aba3a6143da58e7c515bddc18b06b641ece789c81345e4ac2"
+    },
+    {
+      "path": "assets/v0.1.0/demos/R06-limit12.gif",
+      "bytes": 32036,
+      "sha256": "bac9e9fa268d9bc0dcf0a14d19949973481c9b8a2256aa66a94f01f9500694c5"
+    },
+    {
+      "path": "assets/v0.1.0/demos/R06-duty-true.gif",
+      "bytes": 32496,
+      "sha256": "146ce0c36feca469c699db9821ba97eca74fa979c4db5abf81aff46364448216"
+    },
+    {
+      "path": "assets/v0.1.0/demos/R06-duty-false.gif",
+      "bytes": 33208,
+      "sha256": "50ce20e19d27ca38d96ce377319f499e56f284a6e8dcdafecbf7a576e084a739"
+    },
+    {
+      "path": "assets/v0.1.0/demos/R06-battle.gif",
+      "bytes": 310047,
+      "sha256": "2a9325d0ba91eb71e6e42230991558f864f173960fcef24b4ad598cea3f3dfd7"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/R06-attack.svg",
+      "bytes": 24927,
+      "sha256": "2b77d1cd1bcf424e3bfa32aa1bda8b70887c6b434f4de2dd0f2ac610d1b25ded"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/R06-protect.svg",
+      "bytes": 24934,
+      "sha256": "570209c16541c519edaee2b19755473227ee621eaab9e6152342866ca814aeb8"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/R06-retreat.svg",
+      "bytes": 24930,
+      "sha256": "d61c04510d5e5b924369b4690617be3d6399143a1374a87f7a4618390bc80255"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/R05-condition-scaffold.svg",
+      "bytes": 40401,
+      "sha256": "edf4da501f58c8126194bcc618fb45a88fa7c627ca946812d525d1e63338dcd1"
+    },
+    {
+      "path": "assets/v0.1.0/instructions/R06-on-plan.svg",
+      "bytes": 17426,
+      "sha256": "e9bcb8ad13cda70736741981c507a2910e6dc34e1d63b90b3ecb631c4b547b78"
+    },
+    {
+      "path": "assets/v0.1.0/demos/ending-replay.gif",
+      "bytes": 102211,
+      "sha256": "0a6e45c2f8dab36ebd2a02f38ed01b25cc5f640d1855a3cfa1fa4768985cd42f"
+    },
+    {
+      "path": "recipes/r06.md",
+      "bytes": 14634,
+      "sha256": "3a47bd31b37dcf064dfb8e6400b88c030784c72499d615cf49151ebe2b3260ab"
+    },
+    {
+      "path": "recipes/directory.md",
+      "bytes": 904,
+      "sha256": "3c1b75b5f0c35399d93ddd1ae24186325ae5dc0306ebe23241c09be027d756d3"
+    },
+    {
+      "path": "assets/v0.1.0/demos/base-first.png",
+      "bytes": 7061,
+      "sha256": "87ff6f80d39eed68d2e909366fac7b9fa5b51ff2be2512e358a75fde2dca7c22"
+    },
+    {
+      "path": "assets/v0.1.0/demos/first-arena.png",
+      "bytes": 5994,
+      "sha256": "9323c20aa1b67fb401189eeb2cd72a2a4e2dcc88710df5fe7faf5a3917d7a79b"
+    },
+    {
+      "path": "assets/v0.1.0/demos/base-controls.png",
+      "bytes": 7061,
+      "sha256": "87ff6f80d39eed68d2e909366fac7b9fa5b51ff2be2512e358a75fde2dca7c22"
+    },
+    {
+      "path": "README.md",
+      "bytes": 79625,
+      "sha256": "57c70f25478fa0206953589d5c3692fe7eb44be485ef640df857425f391919d8"
+    },
+    {
+      "path": "source/config.ts",
+      "bytes": 112,
+      "sha256": "9f53eb77283ee06fb2b73058c58c77374e63d3ca445e87cabd281e5d7abe4b3a"
+    },
+    {
+      "path": "source/data/trials.ts",
+      "bytes": 967,
+      "sha256": "e1f7e760b85fd0729b8ef2d62c8c0302bcfa22312c15e9ef0b33baa44adb07ab"
+    },
+    {
+      "path": "source/arena.ts",
+      "bytes": 65497,
+      "sha256": "9ef4da037c636813c7ca5fb037e2c2a110e98253058723f97fe242de6ad6fc3f"
+    },
+    {
+      "path": "main.ts",
+      "bytes": 40,
+      "sha256": "ea5033775936a936e20f6eebfded8ba939d86bc841ccab9f505803a404ca689f"
+    },
+    {
+      "path": "source/bootstrap.ts",
+      "bytes": 17,
+      "sha256": "bf733a8de354d5a81e9af90ddd3456f48aa013acc84bf75ac269caaf18dd7f8f"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 4972,
+      "sha256": "b7043b710fc871595b2935c97e74ec7b2eb48688f15332cfec2870a3d8ee545c"
+    },
+    {
+      "path": "MAINTAINING.md",
+      "bytes": 1022,
+      "sha256": "92820ac04e2ce71c7d95721ec525c4efeec37022ccb8e7f703e43156def72589"
+    },
+    {
+      "path": "scripts/rebuild-runtime.mjs",
+      "bytes": 776,
+      "sha256": "e17322bd8f5df22bb866b2e2eeb4f6c94be0e9cff26c3f777c89583cd96e9be2"
+    },
+    {
+      "path": "pxt.json",
+      "bytes": 540,
+      "sha256": "7a58de08ff5ccb152a0bb5a27232f5f44c51d9ee1c22629dc7cb269f4380eab4"
+    }
+  ],
+  "pending_media": [],
+  "claim": "Assembly only. Targeted native, runtime, editorial and exact delivery evidence recorded separately."
+}

@@ -1,0 +1,26 @@
+{
+  "name": "robot-procedures",
+  "version": "0.1.0",
+  "description": "Learn Functions by proving robot plans and battling with the same code.",
+  "dependencies": {
+    "device": "*"
+  },
+  "files": [
+    "main.ts",
+    "recipes/r01.md",
+    "recipes/r02.md",
+    "recipes/r03.md",
+    "recipes/r04.md",
+    "recipes/r05.md",
+    "recipes/r06.md",
+    "recipes/directory.md",
+    "README.md",
+    "NOTICE.md",
+    "MAINTAINING.md"
+  ],
+  "preferredEditor": "blocksprj",
+  "supportedTargets": [
+    "arcade"
+  ],
+  "testDependencies": {}
+}
