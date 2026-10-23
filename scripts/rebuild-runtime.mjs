@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-const order=['config.ts','data/trials.ts','arena.ts','bootstrap.ts'];
+const order=['config.ts','data/trials.ts','art.ts','arena.ts','bootstrap.ts'];
 const runtime=order.map(name=>'// Supplied '+name+'\n'+fs.readFileSync(path.join(root,'source',name),'utf8').replace(/\r\n/g,'\n')).join('\n');
 const file=path.join(root,'README.md'),original=fs.readFileSync(file,'utf8');
 const fence=/^```customts\n[\s\S]*?^```/gm;

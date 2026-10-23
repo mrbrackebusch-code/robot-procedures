@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.1.1",
+  "version": "0.2.0",
   "repository": "mrbrackebusch-code/robot-procedures",
   "entry": "https://arcade.makecode.com/#tutorial:https://github.com/mrbrackebusch-code/robot-procedures/README",
   "recipes": 6,
   "main_comment_only": true,
-  "runtime_sha256": "5dec5175fabd7b63fa6e3e0d7cc4a61cbf49694b6d2264875a22debe4a8cbdc2",
+  "runtime_sha256": "8d8374b69164a468706dbff817603aaec6075f9bb5ef7d3a27b682176378f774",
   "copy_sha256": "8af2186d9628604c8fcba85d5f39d69d8f3e2bdaf0e2c19913c9f9862d9b45a4",
   "media": [
     {
@@ -87,9 +87,9 @@
     },
     {
       "key": "R01-definition-only-no-order",
-      "path": "assets/v0.1.0/demos/R01-definition-only.gif",
+      "path": "assets/v0.2.0/demos/R01-definition-only.gif",
       "source_path": "assets/demos/R01-definition-only.gif",
-      "sha256": "e116bdf4b5fd78bd2babbb191661942d0f7b08d6ccb7c3c04c63a557b847d1f2",
+      "sha256": "efcc96d07bb862fb552bab9e07ca66663dd42dbcc571677be64a96cf5acafae3",
       "part": 1
     },
     {
@@ -129,37 +129,37 @@
     },
     {
       "key": "R01-training-engage",
-      "path": "assets/v0.1.0/demos/R01-training.gif",
+      "path": "assets/v0.2.0/demos/R01-training.gif",
       "source_path": "assets/demos/R01-training.gif",
-      "sha256": "709fdd40c3b6821439861ae57a2da4e13d30f142f3bf10eedde53c638f93f895",
+      "sha256": "d507546032408a3dbf2d775363d0ecd816418c2a40d8a8f3bdc3357a1d60e92f",
       "part": 1
     },
     {
       "key": "R01-missing-call-versus-engage",
-      "path": "assets/v0.1.0/demos/R01-definition-only.gif",
+      "path": "assets/v0.2.0/demos/R01-definition-only.gif",
       "source_path": "assets/demos/R01-definition-only.gif",
-      "sha256": "e116bdf4b5fd78bd2babbb191661942d0f7b08d6ccb7c3c04c63a557b847d1f2",
+      "sha256": "efcc96d07bb862fb552bab9e07ca66663dd42dbcc571677be64a96cf5acafae3",
       "part": 1
     },
     {
       "key": "R01-missing-call-versus-engage",
-      "path": "assets/v0.1.0/demos/R01-training.gif",
+      "path": "assets/v0.2.0/demos/R01-training.gif",
       "source_path": "assets/demos/R01-training.gif",
-      "sha256": "709fdd40c3b6821439861ae57a2da4e13d30f142f3bf10eedde53c638f93f895",
+      "sha256": "d507546032408a3dbf2d775363d0ecd816418c2a40d8a8f3bdc3357a1d60e92f",
       "part": 2
     },
     {
       "key": "R01-proof-current-orders",
-      "path": "assets/v0.1.0/demos/R01-training.gif",
+      "path": "assets/v0.2.0/demos/R01-training.gif",
       "source_path": "assets/demos/R01-training.gif",
-      "sha256": "709fdd40c3b6821439861ae57a2da4e13d30f142f3bf10eedde53c638f93f895",
+      "sha256": "d507546032408a3dbf2d775363d0ecd816418c2a40d8a8f3bdc3357a1d60e92f",
       "part": 1
     },
     {
       "key": "R01-battle-current-program",
-      "path": "assets/v0.1.0/demos/R01-battle.gif",
+      "path": "assets/v0.2.0/demos/R01-battle.gif",
       "source_path": "assets/demos/R01-battle.gif",
-      "sha256": "f3e45f94c23e29e5048383175ef7dbf45d298ec0fa1ad564fd7a8a85a0d69d9f",
+      "sha256": "4be61bfe5173d718dc7826d4bcf9f07b31f0863c32a803dfcf2f3ea4fff2b14c",
       "part": 1
     },
     {
@@ -178,9 +178,9 @@
     },
     {
       "key": "R02-training-protect-consequence",
-      "path": "assets/v0.1.0/demos/R02-training.gif",
+      "path": "assets/v0.2.0/demos/R02-training.gif",
       "source_path": "assets/demos/R02-training.gif",
-      "sha256": "665fbbafbeae87be8cb5c6ef62b15ba8fb06716c1b9f0b9f383640f60da531c7",
+      "sha256": "e9f0f0207ce1681394d0fe2f7509052a7817673a4c7aa8d148e524936bdbbafa",
       "part": 1
     },
     {
@@ -206,37 +206,37 @@
     },
     {
       "key": "R02-mixed-team-orders",
-      "path": "assets/v0.1.0/demos/R02-training.gif",
+      "path": "assets/v0.2.0/demos/R02-training.gif",
       "source_path": "assets/demos/R02-training.gif",
-      "sha256": "665fbbafbeae87be8cb5c6ef62b15ba8fb06716c1b9f0b9f383640f60da531c7",
+      "sha256": "e9f0f0207ce1681394d0fe2f7509052a7817673a4c7aa8d148e524936bdbbafa",
       "part": 1
     },
     {
       "key": "R02-two-nonguards-and-changed-ids",
-      "path": "assets/v0.1.0/demos/R02-training.gif",
+      "path": "assets/v0.2.0/demos/R02-training.gif",
       "source_path": "assets/demos/R02-training.gif",
-      "sha256": "665fbbafbeae87be8cb5c6ef62b15ba8fb06716c1b9f0b9f383640f60da531c7",
+      "sha256": "e9f0f0207ce1681394d0fe2f7509052a7817673a4c7aa8d148e524936bdbbafa",
       "part": 1
     },
     {
       "key": "R02-proof-current-orders",
-      "path": "assets/v0.1.0/demos/R02-training.gif",
+      "path": "assets/v0.2.0/demos/R02-training.gif",
       "source_path": "assets/demos/R02-training.gif",
-      "sha256": "665fbbafbeae87be8cb5c6ef62b15ba8fb06716c1b9f0b9f383640f60da531c7",
+      "sha256": "e9f0f0207ce1681394d0fe2f7509052a7817673a4c7aa8d148e524936bdbbafa",
       "part": 1
     },
     {
       "key": "R02-team-bay2-Guard-selection",
-      "path": "assets/v0.1.0/demos/team-guard.gif",
+      "path": "assets/v0.2.0/demos/team-guard.gif",
       "source_path": "assets/demos/team-guard.gif",
-      "sha256": "ca0c470b6825268b4d6a80feaf9f08dec4bd79ae45d127243f248b988ebc1b0e",
+      "sha256": "3cc6d7419e076b5a5e6810aa4fc44ea9aef5b5fdcd6d4e60eca30c2f2728cc6e",
       "part": 1
     },
     {
       "key": "R02-battle-mixed-team",
-      "path": "assets/v0.1.0/demos/R02-battle.gif",
+      "path": "assets/v0.2.0/demos/R02-battle.gif",
       "source_path": "assets/demos/R02-battle.gif",
-      "sha256": "5148c861b75c7cee9f9f54762f63e80c1522746e1e6b0edd60d8490d5557e6e1",
+      "sha256": "c1eaa01a9ef7759e03aa07afdd0e62a85d4dd39594d24b7dba073a2e73aaf38b",
       "part": 1
     },
     {
@@ -297,44 +297,44 @@
     },
     {
       "key": "R03-same-inputs-same-orders",
-      "path": "assets/v0.1.0/demos/R02-training.gif",
+      "path": "assets/v0.2.0/demos/R02-training.gif",
       "source_path": "assets/demos/R02-training.gif",
-      "sha256": "665fbbafbeae87be8cb5c6ef62b15ba8fb06716c1b9f0b9f383640f60da531c7",
+      "sha256": "e9f0f0207ce1681394d0fe2f7509052a7817673a4c7aa8d148e524936bdbbafa",
       "part": 1
     },
     {
       "key": "R03-same-inputs-same-orders",
-      "path": "assets/v0.1.0/demos/R03-same-scene.gif",
+      "path": "assets/v0.2.0/demos/R03-same-scene.gif",
       "source_path": "assets/demos/R03-same-scene.gif",
-      "sha256": "3e086cb69717241ece870706b924a55ecbc1c6f753f6c3d0653979d80b41b4e4",
+      "sha256": "fd75216bccb02ecb4266f702325ea17aa923dc857898fccfcdd57835da54b5aa",
       "part": 2
     },
     {
       "key": "R03-missing-parent-call-versus-restored",
-      "path": "assets/v0.1.0/demos/R03-missing-parent.gif",
+      "path": "assets/v0.2.0/demos/R03-missing-parent.gif",
       "source_path": "assets/demos/R03-missing-parent.gif",
-      "sha256": "7f1ce0ed1f989f79466fdabbbf5f61b10def7ffc16eafffb22763c116f6ca53c",
+      "sha256": "7be99e5a7fa7797876d8782bf031f8d2f07759059735e49d90ea4068853b3021",
       "part": 1
     },
     {
       "key": "R03-missing-parent-call-versus-restored",
-      "path": "assets/v0.1.0/demos/R03-training.gif",
+      "path": "assets/v0.2.0/demos/R03-training.gif",
       "source_path": "assets/demos/R03-training.gif",
-      "sha256": "226b4458b7b2e07f7118049dd144b9b5dbd2d04e9869e6a3e901cd03ebcc3e4a",
+      "sha256": "6c605cdd08ab9e47e100782d114f2eadf1a1aab9071c7ff06925f70d874b4fc3",
       "part": 2
     },
     {
       "key": "R03-proof-same-behavior",
-      "path": "assets/v0.1.0/demos/R03-training.gif",
+      "path": "assets/v0.2.0/demos/R03-training.gif",
       "source_path": "assets/demos/R03-training.gif",
-      "sha256": "226b4458b7b2e07f7118049dd144b9b5dbd2d04e9869e6a3e901cd03ebcc3e4a",
+      "sha256": "6c605cdd08ab9e47e100782d114f2eadf1a1aab9071c7ff06925f70d874b4fc3",
       "part": 1
     },
     {
       "key": "R03-battle-reorganized-program",
-      "path": "assets/v0.1.0/demos/R03-battle.gif",
+      "path": "assets/v0.2.0/demos/R03-battle.gif",
       "source_path": "assets/demos/R03-battle.gif",
-      "sha256": "5be05a3524fd72a9e8d3a3715efeb1cb4bd47fdcf4eda30487d46f6cdcf54765",
+      "sha256": "1025d278de10a801a52c1aa280788f02836640f8d8ba249206980fc42d3a612d",
       "part": 1
     },
     {
@@ -353,9 +353,9 @@
     },
     {
       "key": "R04-training-withdraw-consequence",
-      "path": "assets/v0.1.0/demos/R04-training.gif",
+      "path": "assets/v0.2.0/demos/R04-training.gif",
       "source_path": "assets/demos/R04-training.gif",
-      "sha256": "3a537b1fb0f3f7766619a2fec3d0454b1e0e7d002e1424150927797d6acc14f6",
+      "sha256": "63967900ba45358b9228019d31d4902df2621854da132b3fdf4ce227cac01c03",
       "part": 1
     },
     {
@@ -437,30 +437,30 @@
     },
     {
       "key": "R04-low-near-guard-withdraws",
-      "path": "assets/v0.1.0/demos/R04-training.gif",
+      "path": "assets/v0.2.0/demos/R04-training.gif",
       "source_path": "assets/demos/R04-training.gif",
-      "sha256": "3a537b1fb0f3f7766619a2fec3d0454b1e0e7d002e1424150927797d6acc14f6",
+      "sha256": "63967900ba45358b9228019d31d4902df2621854da132b3fdf4ce227cac01c03",
       "part": 1
     },
     {
       "key": "R04-controlled-cases-and-boundaries",
-      "path": "assets/v0.1.0/demos/R04-training.gif",
+      "path": "assets/v0.2.0/demos/R04-training.gif",
       "source_path": "assets/demos/R04-training.gif",
-      "sha256": "3a537b1fb0f3f7766619a2fec3d0454b1e0e7d002e1424150927797d6acc14f6",
+      "sha256": "63967900ba45358b9228019d31d4902df2621854da132b3fdf4ce227cac01c03",
       "part": 1
     },
     {
       "key": "R04-proof-current-orders",
-      "path": "assets/v0.1.0/demos/R04-training.gif",
+      "path": "assets/v0.2.0/demos/R04-training.gif",
       "source_path": "assets/demos/R04-training.gif",
-      "sha256": "3a537b1fb0f3f7766619a2fec3d0454b1e0e7d002e1424150927797d6acc14f6",
+      "sha256": "63967900ba45358b9228019d31d4902df2621854da132b3fdf4ce227cac01c03",
       "part": 1
     },
     {
       "key": "R04-battle-live-danger-choice",
-      "path": "assets/v0.1.0/demos/R04-battle.gif",
+      "path": "assets/v0.2.0/demos/R04-battle.gif",
       "source_path": "assets/demos/R04-battle.gif",
-      "sha256": "f96cb6d15d63a375e02194950369b70a1a93ef493e8a41d3be6574bb9f3d6ea3",
+      "sha256": "e75f0a37c4726ba131f29756243f5aba5a27e3f3f8ecef41ffda871586eeab27",
       "part": 1
     },
     {
@@ -591,37 +591,37 @@
     },
     {
       "key": "R05-current-orders-unchanged",
-      "path": "assets/v0.1.0/demos/R04-training.gif",
+      "path": "assets/v0.2.0/demos/R04-training.gif",
       "source_path": "assets/demos/R04-training.gif",
-      "sha256": "3a537b1fb0f3f7766619a2fec3d0454b1e0e7d002e1424150927797d6acc14f6",
+      "sha256": "63967900ba45358b9228019d31d4902df2621854da132b3fdf4ce227cac01c03",
       "part": 1
     },
     {
       "key": "R05-current-orders-unchanged",
-      "path": "assets/v0.1.0/demos/R05-same-scene.gif",
+      "path": "assets/v0.2.0/demos/R05-same-scene.gif",
       "source_path": "assets/demos/R05-same-scene.gif",
-      "sha256": "656572e7631ccad7b7a1b275eeecc582b39f1568539506a00b525f2d9a92d492",
+      "sha256": "7989ae843573c1bee08f0cedc5c359a6e9749d74afead7f5522c4e5fda7eb913",
       "part": 2
     },
     {
       "key": "R05-controlled-return-outcomes-and-boundary",
-      "path": "assets/v0.1.0/demos/R05-training.gif",
+      "path": "assets/v0.2.0/demos/R05-training.gif",
       "source_path": "assets/demos/R05-training.gif",
-      "sha256": "5cf45932c913bbf6bb8e42eef27230fc7f8850a745e69b6dfa4b92260b7af446",
+      "sha256": "247edc10a67c82a67b39dbe0bae88412dcc0bff225b386f117329e0f8bb084b9",
       "part": 1
     },
     {
       "key": "R05-proof-current-orders",
-      "path": "assets/v0.1.0/demos/R05-training.gif",
+      "path": "assets/v0.2.0/demos/R05-training.gif",
       "source_path": "assets/demos/R05-training.gif",
-      "sha256": "5cf45932c913bbf6bb8e42eef27230fc7f8850a745e69b6dfa4b92260b7af446",
+      "sha256": "247edc10a67c82a67b39dbe0bae88412dcc0bff225b386f117329e0f8bb084b9",
       "part": 1
     },
     {
       "key": "R05-battle-returned-answer-used",
-      "path": "assets/v0.1.0/demos/R05-battle.gif",
+      "path": "assets/v0.2.0/demos/R05-battle.gif",
       "source_path": "assets/demos/R05-battle.gif",
-      "sha256": "4b25477481a7b5a7722f36ed4edf6940c5af7b10bbdde113ca11bed5f019a1d8",
+      "sha256": "5ecc67298b202ac4e3a0cb11adcddbe427f3a97415463c247d220b87eb4e07b5",
       "part": 1
     },
     {
@@ -689,51 +689,51 @@
     },
     {
       "key": "R06-equal-readings-different-limits",
-      "path": "assets/v0.1.0/demos/R06-training.gif",
+      "path": "assets/v0.2.0/demos/R06-training.gif",
       "source_path": "assets/demos/R06-training.gif",
-      "sha256": "957f08d5cde73df066fd6c8f555590d22799a565f49bad3976cf69f26064dc6a",
+      "sha256": "dbeac687487de339a6cacaabeb698f53f28e7b89f32100eebbf1439490986aa8",
       "part": 1
     },
     {
       "key": "R06-practice-limit-current-code-18-versus-12",
-      "path": "assets/v0.1.0/demos/R06-limit18.gif",
+      "path": "assets/v0.2.0/demos/R06-limit18.gif",
       "source_path": "assets/demos/R06-limit18.gif",
-      "sha256": "476fc28ab05ca97aba3a6143da58e7c515bddc18b06b641ece789c81345e4ac2",
+      "sha256": "7b98c7d2da94b7a6de78e72936ae97320fd412041f850922cbc9ffef60b2ba04",
       "part": 1
     },
     {
       "key": "R06-practice-limit-current-code-18-versus-12",
-      "path": "assets/v0.1.0/demos/R06-limit12.gif",
+      "path": "assets/v0.2.0/demos/R06-limit12.gif",
       "source_path": "assets/demos/R06-limit12.gif",
-      "sha256": "bac9e9fa268d9bc0dcf0a14d19949973481c9b8a2256aa66a94f01f9500694c5",
+      "sha256": "fb47b4737cbb93d2e3d1d98df6758647f7c988841fad309a00c9012e41cc5d7f",
       "part": 2
     },
     {
       "key": "R06-practice-duty-current-code-true-versus-false",
-      "path": "assets/v0.1.0/demos/R06-duty-true.gif",
+      "path": "assets/v0.2.0/demos/R06-duty-true.gif",
       "source_path": "assets/demos/R06-duty-true.gif",
-      "sha256": "146ce0c36feca469c699db9821ba97eca74fa979c4db5abf81aff46364448216",
+      "sha256": "1cb656ac37bc1793e97e0352c707e0798197413ff853a9608126d16917564afb",
       "part": 1
     },
     {
       "key": "R06-practice-duty-current-code-true-versus-false",
-      "path": "assets/v0.1.0/demos/R06-duty-false.gif",
+      "path": "assets/v0.2.0/demos/R06-duty-false.gif",
       "source_path": "assets/demos/R06-duty-false.gif",
-      "sha256": "50ce20e19d27ca38d96ce377319f499e56f284a6e8dcdafecbf7a576e084a739",
+      "sha256": "d9c141763a827f1e964e03faeebb9514e77ea04f6c83e65d64c719519153eaed",
       "part": 2
     },
     {
       "key": "R06-proof-current-policy-boundaries-and-ids",
-      "path": "assets/v0.1.0/demos/R06-training.gif",
+      "path": "assets/v0.2.0/demos/R06-training.gif",
       "source_path": "assets/demos/R06-training.gif",
-      "sha256": "957f08d5cde73df066fd6c8f555590d22799a565f49bad3976cf69f26064dc6a",
+      "sha256": "dbeac687487de339a6cacaabeb698f53f28e7b89f32100eebbf1439490986aa8",
       "part": 1
     },
     {
       "key": "R06-final-battle-current-program",
-      "path": "assets/v0.1.0/demos/R06-battle.gif",
+      "path": "assets/v0.2.0/demos/R06-battle.gif",
       "source_path": "assets/demos/R06-battle.gif",
-      "sha256": "2a9325d0ba91eb71e6e42230991558f864f173960fcef24b4ad598cea3f3dfd7",
+      "sha256": "81905de9572e3508416f803096344be2e78e4da6c97a1df7b80c74380a4f0c0f",
       "part": 1
     },
     {
@@ -801,30 +801,30 @@
     },
     {
       "key": "ending-current-code-replay-and-progress",
-      "path": "assets/v0.1.0/demos/ending-replay.gif",
+      "path": "assets/v0.2.0/demos/ending-replay.gif",
       "source_path": "assets/demos/ending-replay.gif",
-      "sha256": "0a6e45c2f8dab36ebd2a02f38ed01b25cc5f640d1855a3cfa1fa4768985cd42f",
+      "sha256": "7d8e467738050d693693d2abf0fa45ad3b1f9d7f341943435bf75f4e31f11bd3",
       "part": 1
     },
     {
       "key": "opening-current-world-and-menus",
-      "path": "assets/v0.1.0/demos/base-first.png",
+      "path": "assets/v0.2.0/demos/base-first.png",
       "source_path": "assets/demos/base-first.png",
-      "sha256": "87ff6f80d39eed68d2e909366fac7b9fa5b51ff2be2512e358a75fde2dca7c22",
+      "sha256": "7848c444a8f292d74d566c7c081e51a05cf1bedbc65d4baea970cdb53e806eec",
       "part": 1
     },
     {
       "key": "opening-current-world-and-menus",
-      "path": "assets/v0.1.0/demos/first-arena.png",
+      "path": "assets/v0.2.0/demos/first-arena.png",
       "source_path": "assets/demos/first-arena.png",
-      "sha256": "9323c20aa1b67fb401189eeb2cd72a2a4e2dcc88710df5fe7faf5a3917d7a79b",
+      "sha256": "e74cd8b0d1152502c67c36c2cb398259a52b0f4d543398e9697547e4b56eaff7",
       "part": 2
     },
     {
       "key": "controls-native-menu-and-back-cues",
-      "path": "assets/v0.1.0/demos/base-controls.png",
+      "path": "assets/v0.2.0/demos/base-controls.png",
       "source_path": "assets/demos/base-controls.png",
-      "sha256": "87ff6f80d39eed68d2e909366fac7b9fa5b51ff2be2512e358a75fde2dca7c22",
+      "sha256": "7848c444a8f292d74d566c7c081e51a05cf1bedbc65d4baea970cdb53e806eec",
       "part": 1
     }
   ],
@@ -1210,39 +1210,149 @@
       "sha256": "87ff6f80d39eed68d2e909366fac7b9fa5b51ff2be2512e358a75fde2dca7c22"
     },
     {
-      "path": "recipes/r01.md",
-      "bytes": 11204,
-      "sha256": "f845abe7e33d6f9cf91422627d305dfd01aef87e5617bc9c3e67bfc3e9716f89"
-    },
-    {
-      "path": "recipes/r02.md",
-      "bytes": 7040,
-      "sha256": "f0733649bce4c8bd8108a5d8d36d5180567b398280c0befbca7c0017275a3c70"
-    },
-    {
-      "path": "recipes/r03.md",
-      "bytes": 7354,
-      "sha256": "0848a0be0f373e41f579adfd7a762df45a0e442234d467ef77909edcfa56d886"
-    },
-    {
-      "path": "recipes/r04.md",
-      "bytes": 9426,
-      "sha256": "1a1bffa4b95f24addf82363f57f6d9aa46c0ea88b7accb017a5c40de8ef3e7ba"
-    },
-    {
-      "path": "recipes/r05.md",
-      "bytes": 12048,
-      "sha256": "73aa00789088e8e20d3a0d3b9b389334010718e7c2748bcdc2355e06207893b1"
-    },
-    {
       "path": "assets/v0.1.1/instructions/R06-complete-inDanger-overview.svg",
       "bytes": 64264,
       "sha256": "7ef8475e0a22a0dc94305b5dc0c938d0be4cdbb2491b3888f5191efe6c6ef4be"
     },
     {
+      "path": "assets/v0.2.0/demos/R01-definition-only.gif",
+      "bytes": 379591,
+      "sha256": "efcc96d07bb862fb552bab9e07ca66663dd42dbcc571677be64a96cf5acafae3"
+    },
+    {
+      "path": "assets/v0.2.0/demos/R01-training.gif",
+      "bytes": 381128,
+      "sha256": "d507546032408a3dbf2d775363d0ecd816418c2a40d8a8f3bdc3357a1d60e92f"
+    },
+    {
+      "path": "assets/v0.2.0/demos/R01-battle.gif",
+      "bytes": 1311814,
+      "sha256": "4be61bfe5173d718dc7826d4bcf9f07b31f0863c32a803dfcf2f3ea4fff2b14c"
+    },
+    {
+      "path": "recipes/r01.md",
+      "bytes": 11204,
+      "sha256": "28b1a508eb0bc2113c3b283f0788c74df9dba361a45c98a62e41f11c28271efa"
+    },
+    {
+      "path": "assets/v0.2.0/demos/R02-training.gif",
+      "bytes": 1099442,
+      "sha256": "e9f0f0207ce1681394d0fe2f7509052a7817673a4c7aa8d148e524936bdbbafa"
+    },
+    {
+      "path": "assets/v0.2.0/demos/team-guard.gif",
+      "bytes": 140978,
+      "sha256": "3cc6d7419e076b5a5e6810aa4fc44ea9aef5b5fdcd6d4e60eca30c2f2728cc6e"
+    },
+    {
+      "path": "assets/v0.2.0/demos/R02-battle.gif",
+      "bytes": 1875301,
+      "sha256": "c1eaa01a9ef7759e03aa07afdd0e62a85d4dd39594d24b7dba073a2e73aaf38b"
+    },
+    {
+      "path": "recipes/r02.md",
+      "bytes": 7040,
+      "sha256": "d00bff17138e99763ed97a312c5f87ab967b0c947e813ece9190ecf767e693e6"
+    },
+    {
+      "path": "assets/v0.2.0/demos/R03-same-scene.gif",
+      "bytes": 1086077,
+      "sha256": "fd75216bccb02ecb4266f702325ea17aa923dc857898fccfcdd57835da54b5aa"
+    },
+    {
+      "path": "assets/v0.2.0/demos/R03-missing-parent.gif",
+      "bytes": 554812,
+      "sha256": "7be99e5a7fa7797876d8782bf031f8d2f07759059735e49d90ea4068853b3021"
+    },
+    {
+      "path": "assets/v0.2.0/demos/R03-training.gif",
+      "bytes": 567296,
+      "sha256": "6c605cdd08ab9e47e100782d114f2eadf1a1aab9071c7ff06925f70d874b4fc3"
+    },
+    {
+      "path": "assets/v0.2.0/demos/R03-battle.gif",
+      "bytes": 1863361,
+      "sha256": "1025d278de10a801a52c1aa280788f02836640f8d8ba249206980fc42d3a612d"
+    },
+    {
+      "path": "recipes/r03.md",
+      "bytes": 7354,
+      "sha256": "07e5d40b533a51686a231a252a7796275c304512f0875721fbd76d74f48c5fd2"
+    },
+    {
+      "path": "assets/v0.2.0/demos/R04-training.gif",
+      "bytes": 1065531,
+      "sha256": "63967900ba45358b9228019d31d4902df2621854da132b3fdf4ce227cac01c03"
+    },
+    {
+      "path": "assets/v0.2.0/demos/R04-battle.gif",
+      "bytes": 4883201,
+      "sha256": "e75f0a37c4726ba131f29756243f5aba5a27e3f3f8ecef41ffda871586eeab27"
+    },
+    {
+      "path": "recipes/r04.md",
+      "bytes": 9426,
+      "sha256": "7ab72f46d62f187396d898a2af079ab43f72bcab456afa7a73bcedc5762578cd"
+    },
+    {
+      "path": "assets/v0.2.0/demos/R05-same-scene.gif",
+      "bytes": 1092351,
+      "sha256": "7989ae843573c1bee08f0cedc5c359a6e9749d74afead7f5522c4e5fda7eb913"
+    },
+    {
+      "path": "assets/v0.2.0/demos/R05-training.gif",
+      "bytes": 897623,
+      "sha256": "247edc10a67c82a67b39dbe0bae88412dcc0bff225b386f117329e0f8bb084b9"
+    },
+    {
+      "path": "assets/v0.2.0/demos/R05-battle.gif",
+      "bytes": 3942287,
+      "sha256": "5ecc67298b202ac4e3a0cb11adcddbe427f3a97415463c247d220b87eb4e07b5"
+    },
+    {
+      "path": "recipes/r05.md",
+      "bytes": 12048,
+      "sha256": "b8e76af3bd4ec8457be1652c904ef858cbf24b7df55a23dd3df530399b7759a0"
+    },
+    {
+      "path": "assets/v0.2.0/demos/R06-training.gif",
+      "bytes": 1784701,
+      "sha256": "dbeac687487de339a6cacaabeb698f53f28e7b89f32100eebbf1439490986aa8"
+    },
+    {
+      "path": "assets/v0.2.0/demos/R06-limit18.gif",
+      "bytes": 216357,
+      "sha256": "7b98c7d2da94b7a6de78e72936ae97320fd412041f850922cbc9ffef60b2ba04"
+    },
+    {
+      "path": "assets/v0.2.0/demos/R06-limit12.gif",
+      "bytes": 214828,
+      "sha256": "fb47b4737cbb93d2e3d1d98df6758647f7c988841fad309a00c9012e41cc5d7f"
+    },
+    {
+      "path": "assets/v0.2.0/demos/R06-duty-true.gif",
+      "bytes": 214766,
+      "sha256": "1cb656ac37bc1793e97e0352c707e0798197413ff853a9608126d16917564afb"
+    },
+    {
+      "path": "assets/v0.2.0/demos/R06-duty-false.gif",
+      "bytes": 205556,
+      "sha256": "d9c141763a827f1e964e03faeebb9514e77ea04f6c83e65d64c719519153eaed"
+    },
+    {
+      "path": "assets/v0.2.0/demos/R06-battle.gif",
+      "bytes": 1224318,
+      "sha256": "81905de9572e3508416f803096344be2e78e4da6c97a1df7b80c74380a4f0c0f"
+    },
+    {
+      "path": "assets/v0.2.0/demos/ending-replay.gif",
+      "bytes": 537863,
+      "sha256": "7d8e467738050d693693d2abf0fa45ad3b1f9d7f341943435bf75f4e31f11bd3"
+    },
+    {
       "path": "recipes/r06.md",
       "bytes": 15469,
-      "sha256": "322545299e22472129c1bda21e510574a9fc878fc7be65974d2e4de31708cf13"
+      "sha256": "c14fcdfa4e5522a36e5dd131e039c65ca4112419cbfb2af32660ed705ec29be3"
     },
     {
       "path": "recipes/directory.md",
@@ -1250,14 +1360,29 @@
       "sha256": "3c1b75b5f0c35399d93ddd1ae24186325ae5dc0306ebe23241c09be027d756d3"
     },
     {
+      "path": "assets/v0.2.0/demos/base-first.png",
+      "bytes": 16263,
+      "sha256": "7848c444a8f292d74d566c7c081e51a05cf1bedbc65d4baea970cdb53e806eec"
+    },
+    {
+      "path": "assets/v0.2.0/demos/first-arena.png",
+      "bytes": 56235,
+      "sha256": "e74cd8b0d1152502c67c36c2cb398259a52b0f4d543398e9697547e4b56eaff7"
+    },
+    {
+      "path": "assets/v0.2.0/demos/base-controls.png",
+      "bytes": 16263,
+      "sha256": "7848c444a8f292d74d566c7c081e51a05cf1bedbc65d4baea970cdb53e806eec"
+    },
+    {
       "path": "README.md",
-      "bytes": 79601,
-      "sha256": "96039e997d247c10714fab5f48233c94205e373e318ee4cfe6d0513fe8192520"
+      "bytes": 926609,
+      "sha256": "3b769a12daabdc92402dc6ba92c98e0f3684cf8e341d05b0a954a3c01506a4e4"
     },
     {
       "path": "source/config.ts",
       "bytes": 112,
-      "sha256": "9f53eb77283ee06fb2b73058c58c77374e63d3ca445e87cabd281e5d7abe4b3a"
+      "sha256": "4dcc97ffefebaa68c3e153968c7d4190162bb9dee0d2cb01ceace24e034c9f27"
     },
     {
       "path": "source/data/trials.ts",
@@ -1265,9 +1390,14 @@
       "sha256": "e1f7e760b85fd0729b8ef2d62c8c0302bcfa22312c15e9ef0b33baa44adb07ab"
     },
     {
+      "path": "source/art.ts",
+      "bytes": 836358,
+      "sha256": "15ecd873f91caf594c08c93d3fe899c9122a437a0a64384c6cb106b442c24db6"
+    },
+    {
       "path": "source/arena.ts",
-      "bytes": 65497,
-      "sha256": "9ef4da037c636813c7ca5fb037e2c2a110e98253058723f97fe242de6ad6fc3f"
+      "bytes": 76127,
+      "sha256": "fd3e8aa2f8d043d56e10ed465b4042d013b0e14720d81de73ce2b5403abdb4a7"
     },
     {
       "path": "main.ts",
@@ -1280,24 +1410,154 @@
       "sha256": "bf733a8de354d5a81e9af90ddd3456f48aa013acc84bf75ac269caaf18dd7f8f"
     },
     {
+      "path": "assets/game-art/selected-art-source.zip",
+      "bytes": 1021940,
+      "sha256": "4349ef4c57a92f9eb9445352862459dd563a6dcb48773bc86792f08471f3ea75"
+    },
+    {
+      "path": "assets/game-art/manifest.json",
+      "bytes": 632769,
+      "sha256": "42a1dab68a68463e651fe74fe7623784ed7c384c3c0fd868d14338151360f87a"
+    },
+    {
+      "path": "tools/build-game-art.py",
+      "bytes": 26379,
+      "sha256": "be2eb454f33d3dfc63a6215d748bd48386820f2ef8bd34e94ad244db67122144"
+    },
+    {
+      "path": "assets/game-art/notices/CC-BY-3.0.txt",
+      "bytes": 19467,
+      "sha256": "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    },
+    {
+      "path": "assets/game-art/notices/CC-BY-4.0.txt",
+      "bytes": 17023,
+      "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744"
+    },
+    {
+      "path": "assets/game-art/notices/CC-BY-SA-3.0.txt",
+      "bytes": 22240,
+      "sha256": "3f941b3b89cf7b8370ceb83cc76d2120d471b58735d8ca60238a751a48d7f72f"
+    },
+    {
+      "path": "assets/game-art/notices/CC-BY-SA-4.0.txt",
+      "bytes": 18375,
+      "sha256": "cde7883b9050a1104f4ac19a1572aafd6e5d7323b68351aaf51fbf4beba54966"
+    },
+    {
+      "path": "assets/game-art/notices/CC0-1.0.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "path": "assets/game-art/notices/GPL-2.0.txt",
+      "bytes": 17984,
+      "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+    },
+    {
+      "path": "assets/game-art/notices/LICENSE_SOURCES.json",
+      "bytes": 1149,
+      "sha256": "b7fa64ecc3d20a100f0ab38867558282ae592c2894a86dae23ab696ab6484726"
+    },
+    {
+      "path": "assets/game-art/notices/amon-animated-robot-SOURCE.json",
+      "bytes": 3480,
+      "sha256": "704e352adb6c8da2b727e55bb99a57152d80306393d261f8e9c8c29602a6cd2f"
+    },
+    {
+      "path": "assets/game-art/notices/basxto-frama-extensions-SOURCE.json",
+      "bytes": 6447,
+      "sha256": "b2d2425486e85276a71e54e27037e633ffba5086f841441187570c7ab9c2a1cb"
+    },
+    {
+      "path": "assets/game-art/notices/basxto-lpc-goes-to-space-SOURCE.json",
+      "bytes": 2064,
+      "sha256": "cd07287b2b47fa6ffa0daabb18dc6e90439211db7f197bf8ea055a90b3aebd42"
+    },
+    {
+      "path": "assets/game-art/notices/bombfire-computer-dude-SOURCE.json",
+      "bytes": 2268,
+      "sha256": "b6ebb32ab964710edb6e7e5f274bfa99ccc66e6e94280a12d116fbdec980a50a"
+    },
+    {
+      "path": "assets/game-art/notices/croomfolk-yurinikolai-modular-64x-SOURCE.json",
+      "bytes": 2599,
+      "sha256": "3d0eacedd2998e7cd11ebc928524b256d602c4217af14d1c93b59c079248f3bf"
+    },
+    {
+      "path": "assets/game-art/notices/davilj-robot-SOURCE.json",
+      "bytes": 1882,
+      "sha256": "c201cdde089794670b15970ec5a9bf1f6c44c03904da0caca55b3381e420c217"
+    },
+    {
+      "path": "assets/game-art/notices/davilj-robot2-SOURCE.json",
+      "bytes": 1882,
+      "sha256": "ae6e27590034f94d24fc1cf4663a9afd679d8d522f47a3da3da2f4b3c86f7564"
+    },
+    {
+      "path": "assets/game-art/notices/imogiagames-redshrike-nes-creatures-SOURCE.json",
+      "bytes": 3176,
+      "sha256": "564a1b2d0398c06634b70ae8548ca294a7c967366e3152d17699c417e29992cb"
+    },
+    {
+      "path": "assets/game-art/notices/platforge-hannah-cohan-robot-SOURCE.json",
+      "bytes": 1784,
+      "sha256": "0f784f5eec09e6078a7431f9ea6ce980231e1c4fadfe19571fe08608b555fdce"
+    },
+    {
+      "path": "assets/game-art/notices/redshrike-fighting-robot-SOURCE.json",
+      "bytes": 3029,
+      "sha256": "1a26bf194d7df59b509bf0424caa81a0b608114d06588aae21ecf437867f5e46"
+    },
+    {
+      "path": "assets/game-art/notices/rubberduck-buch-colony-extended-SOURCE.json",
+      "bytes": 4693,
+      "sha256": "9c9757ab819327d1caddbb451cbc43a6cb4de3e2a55b725524301d3f86fa2c2f"
+    },
+    {
+      "path": "assets/game-art/notices/treadbots_README.txt",
+      "bytes": 2426,
+      "sha256": "0c91bf4bdb99d8d14974d8d4065d287d503189ebefba0454faffc765f4e33c41"
+    },
+    {
+      "path": "ART_PACKAGE.json",
+      "bytes": 3769,
+      "sha256": "fc375a73091b4ccab5bac4550537de696fbc4a804c1cb6edb09d9b9d38f6063b"
+    },
+    {
       "path": "NOTICE.md",
-      "bytes": 4972,
-      "sha256": "b7043b710fc871595b2935c97e74ec7b2eb48688f15332cfec2870a3d8ee545c"
+      "bytes": 10049,
+      "sha256": "b194f2c4e3f709265091158eb3b017c9c8aebff063147966fd5ef6278f9a1548"
+    },
+    {
+      "path": "ART_CREDITS.md",
+      "bytes": 5202,
+      "sha256": "f64577996dae5ae8257f891c0dc3796cdb986f27d89ff3ef63d8c58c9be8fbdf"
+    },
+    {
+      "path": "ART_CONVERSION.md",
+      "bytes": 9971,
+      "sha256": "7328ef97e4fb9f9225c5aaf7e9ed40937de7c17de67326fde312c405879cf08f"
+    },
+    {
+      "path": "source/palette.json",
+      "bytes": 595,
+      "sha256": "91d54be7189bd174ac33f96cd78bb2cb7d755cdc2d4663021e547ecaea50bf78"
     },
     {
       "path": "MAINTAINING.md",
-      "bytes": 1022,
-      "sha256": "92820ac04e2ce71c7d95721ec525c4efeec37022ccb8e7f703e43156def72589"
+      "bytes": 1146,
+      "sha256": "a16a33b67050294b77d80c72034575558a9737aafe28d3195e709b416f52e276"
     },
     {
       "path": "scripts/rebuild-runtime.mjs",
-      "bytes": 776,
-      "sha256": "e17322bd8f5df22bb866b2e2eeb4f6c94be0e9cff26c3f777c89583cd96e9be2"
+      "bytes": 785,
+      "sha256": "5eeb7f2f9f29ea7cf43766c1b83777fd0c971112ba7f23efc2b6b250059ac8e6"
     },
     {
       "path": "pxt.json",
-      "bytes": 540,
-      "sha256": "001f8adb097121084e4eb608758864bdd7cd8e1a460d3c6eff90196f3be840b0"
+      "bytes": 846,
+      "sha256": "adf8500fb9e071f5c3cb0064e170d026d53c36bb338b3e42cb5e22f62c67b141"
     }
   ],
   "pending_media": [],

@@ -1,0 +1,39 @@
+{
+  "name": "Robot Procedures material palette",
+  "colors": [
+    "#000000",
+    "#F2F4DE",
+    "#BD444E",
+    "#B4CAD1",
+    "#DA8D4A",
+    "#E4CC6B",
+    "#2D6C70",
+    "#75B66C",
+    "#192A43",
+    "#548BD2",
+    "#855D9A",
+    "#6D8798",
+    "#293E52",
+    "#7E6A51",
+    "#A6987C",
+    "#111824"
+  ],
+  "roles": [
+    "transparent",
+    "light text",
+    "enemy red/danger",
+    "light steel",
+    "orange",
+    "gold/aim",
+    "teal",
+    "green/HP",
+    "navy",
+    "player blue/shield",
+    "purple",
+    "steel",
+    "panel/slate",
+    "earth",
+    "warm grey",
+    "near black"
+  ]
+}
